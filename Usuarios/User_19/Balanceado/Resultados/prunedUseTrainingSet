@@ -1,0 +1,113 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     perfil_user3
+Instances:    200
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+IMDB_rating <= 6.4: No (49.0/9.0)
+IMDB_rating > 6.4
+|   country = USA
+|   |   genre2 = Family
+|   |   |   movie_win_oscar = Yes
+|   |   |   |   IMDB_rating <= 7.5: Yes (3.0)
+|   |   |   |   IMDB_rating > 7.5: No (4.97/1.48)
+|   |   |   movie_win_oscar = No
+|   |   |   |   budget <= 3000000: No (6.16/0.97)
+|   |   |   |   budget > 3000000
+|   |   |   |   |   budget <= 5000000: Yes (4.54/0.54)
+|   |   |   |   |   budget > 5000000
+|   |   |   |   |   |   run_time <= 80: No (3.66)
+|   |   |   |   |   |   run_time > 80: Yes (8.42/2.27)
+|   |   genre2 = Adventure
+|   |   |   IMDB_rating <= 7.3: No (5.58/0.74)
+|   |   |   IMDB_rating > 7.3: Yes (7.79/0.53)
+|   |   genre2 = Romance
+|   |   |   year <= 1986: No (2.01/0.32)
+|   |   |   year > 1986: Yes (6.01/0.13)
+|   |   genre2 = Crime: Yes (2.67/0.27)
+|   |   genre2 = Thriller
+|   |   |   movie_win_oscar = Yes: No (4.59/1.29)
+|   |   |   movie_win_oscar = No: Yes (14.13/5.62)
+|   |   genre2 = Action
+|   |   |   year <= 1986: No (15.04/4.26)
+|   |   |   year > 1986: Yes (17.04/4.51)
+|   |   genre2 = Sci-Fi
+|   |   |   IMDB_rating <= 7.7: No (2.84/0.42)
+|   |   |   IMDB_rating > 7.7: Yes (2.51/0.13)
+|   |   genre2 = Comedy: Yes (12.03/1.23)
+|   |   genre2 = War: No (2.67/0.4)
+|   |   genre2 = Musical: Yes (0.0)
+|   |   genre2 = Mystery: Yes (0.0)
+|   |   genre2 = Drama: Yes (0.0)
+|   |   genre2 = Western: Yes (0.0)
+|   |   genre2 = Fantasy: Yes (0.0)
+|   |   genre2 = Horror: Yes (0.0)
+|   |   genre2 = Short: Yes (0.0)
+|   |   genre2 = Film-Noir: Yes (0.0)
+|   |   genre2 = Documentary: No (1.34/0.2)
+|   country = UK
+|   |   movie_win_oscar = Yes
+|   |   |   budget <= 10000000: Yes (3.0)
+|   |   |   budget > 10000000: No (2.0)
+|   |   movie_win_oscar = No: Yes (12.0/1.0)
+|   country = Germany: Yes (1.0)
+|   country = Austria: Yes (0.0)
+|   country = Australia: Yes (2.0/1.0)
+|   country = Japan: No (1.0)
+|   country = France: Yes (2.0/1.0)
+|   country = Canada: Yes (0.0)
+|   country = Italy: Yes (1.0)
+
+Number of Leaves  : 	39
+
+Size of the tree : 	54
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         167               83.5    %
+Incorrectly Classified Instances        33               16.5    %
+Kappa statistic                          0.67  
+Mean absolute error                      0.278 
+Root mean squared error                  0.3561
+Relative absolute error                 55.6018 %
+Root relative squared error             71.2141 %
+Total Number of Instances              200     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,820    0,150    0,845      0,820    0,832      0,670    0,897     0,898     Yes
+                 0,850    0,180    0,825      0,850    0,837      0,670    0,897     0,866     No
+Weighted Avg.    0,835    0,165    0,835      0,835    0,835      0,670    0,897     0,882     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 82 18 |  a = Yes
+ 15 85 |  b = No
+

@@ -1,0 +1,59 @@
+% Cabecalho para usuarios
+
+@relation perfil_user2
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand','China','Mexico','Spain','Brazil','Denmark','Russia','Iran','Czech_Republic','Cuba','Soviet_Union','Sweden'}
+
+@attribute budget numeric
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1973,Drama,Crime,130,No,Italy,3000000,Yes,7.8,No,No
+1997,Action,Thriller,135,No,USA,75000000,No,6.7,No,No
+1991,Comedy,?,99,No,USA,35000000,No,7.0,No,No
+1994,Drama,Comedy,127,No,USA,18000000,No,7.9,Yes,No
+1995,Drama,Action,105,No,USA,30250000,Yes,6.9,No,No
+1995,Action,Thriller,128,No,USA,90000000,No,7.6,No,No
+1998,Comedy,?,124,No,USA,40000000,No,7.5,No,No
+1986,Drama,War,120,Yes,UK,6000000,No,8.1,Yes,No
+1992,Action,?,103,No,France,35000000,No,6.4,No,No
+1996,Sci-Fi,Action,145,No,USA,75000000,No,6.9,Yes,No
+1960,Drama,?,184,No,USA,12000000,No,7.9,Yes,No
+1998,Action,Adventure,136,No,USA,65000000,No,6.7,No,No
+1985,Drama,Comedy,97,No,USA,1000000,No,7.9,No,No
+1979,Drama,Romance,96,Yes,USA,?,No,8.0,No,No
+1990,Drama,?,115,Yes,USA,14000000,No,7.8,No,No
+2000,Comedy,Thriller,110,No,Germany,35000000,Yes,6.3,No,No
+1994,Action,Adventure,141,No,USA,62000000,No,6.9,No,Yes
+1993,Action,Thriller,130,No,USA,44000000,No,7.8,Yes,Yes
+1982,Drama,?,150,No,UK,12000000,Yes,7.7,Yes,Yes
+1939,Drama,Romance,238,Yes,USA,3977000,Yes,8.2,Yes,Yes
+1997,Sci-Fi,Action,126,No,France,93000000,No,7.7,No,Yes
+1991,Drama,Action,130,No,USA,16500000,Yes,7.4,Yes,Yes
+1967,Drama,Comedy,108,No,USA,4000000,Yes,7.8,Yes,Yes
+1940,Drama,?,129,Yes,USA,800000,Yes,8.1,Yes,Yes
+1992,Drama,Action,118,No,USA,35000000,No,6.7,No,Yes
+1989,Drama,?,99,No,USA,7500000,Yes,7.4,Yes,Yes
+1997,Drama,Comedy,139,Yes,USA,50000000,Yes,7.7,Yes,Yes
+1994,Drama,?,142,No,USA,25000000,Yes,9.3,No,Yes
+1962,Drama,?,129,No,USA,2000000,Yes,8.3,Yes,Yes
+1994,Comedy,Romance,142,Yes,USA,55000000,Yes,8.8,Yes,Yes
+1989,Drama,?,128,No,USA,16400000,Yes,8.0,Yes,Yes
+1967,Drama,Romance,106,Yes,USA,3000000,Yes,8.0,Yes,Yes

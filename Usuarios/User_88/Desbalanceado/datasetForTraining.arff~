@@ -1,0 +1,37 @@
+% Cabecalho para usuarios
+
+@relation perfil_user24
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand','China','Mexico','Spain','Brazil','Denmark','Russia','Iran','Czech_Republic','Cuba','Soviet_Union','Sweden'}
+
+@attribute budget numeric
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1988,Comedy,?,108,No,UK,7500000,No,7.6,Yes,No
+1993,Sci-Fi,Action,127,Yes,USA,63000000,No,8.1,Yes,No
+1989,Comedy,?,104,Yes,USA,19000000,Yes,8.0,No,No
+1986,Drama,War,120,Yes,UK,6000000,No,8.1,Yes,No
+1979,Drama,Romance,96,Yes,USA,?,No,8.0,No,No
+1977,Comedy,Romance,93,Yes,USA,4000000,No,8.1,Yes,Yes
+1983,Drama,?,193,No,USA,27000000,No,7.9,Yes,Yes
+1989,Comedy,Romance,96,No,USA,16000000,No,7.6,No,Yes
+1988,Drama,Romance,155,No,Italy,5000000,No,8.5,Yes,Yes
+1966,Drama,Mystery,111,No,UK,1800000,No,7.7,No,Yes

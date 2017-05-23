@@ -1,0 +1,33 @@
+% Cabecalho para usuarios
+
+@relation perfil_user101
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand'}
+
+@attribute budget numeric
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1993,Comedy,Action,130,No,USA,85000000,No,6.2,No,Yes
+1990,Comedy,Action,113,No,USA,35000000,No,5.7,No,Yes
+1984,Sci-Fi,Action,107,Yes,UK,6400000,No,8.0,No,Yes
+1986,Sci-Fi,Action,137,Yes,USA,18500000,No,8.4,Yes,No
+1979,Horror,Thriller,117,No,UK,11000000,No,8.5,Yes,No
+1990,Sci-Fi,Action,108,No,USA,35000000,No,6.2,No,No

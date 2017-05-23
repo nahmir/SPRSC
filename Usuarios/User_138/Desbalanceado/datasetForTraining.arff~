@@ -1,0 +1,95 @@
+% Cabecalho para usuarios
+
+@relation perfil_user138
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director {'Orson_Welles','Stephen_Frears','Brian_De_Palma','Bryan_Singer','Nick_Park','John_Sayles','Irvin_Kershner','Jonathan_Demme','Gus_Van_Sant_(as_Gus_Van_Sant_Jr.)','John_McNaughton','Francis_Ford_Coppola','Ron_Howard','Mike_Newell','Phil_Alden_Robinson','Lana_Wachowski_(as_The_Wachowski_Brothers)','Curtis_Hanson','Jacques_Doillon','Otto_Preminger','Pedro_Almodovar','Walter_Salles','Alan_J._Pakula','David_Twohy','Thomas_Vinterberg_(uncredited)','Jim_Jarmusch','John_Woo','Sam_Raimi','Guy_Ritchie','Nikita_Mikhalkov','Billy_Wilder','John_Huston','Steven_Soderbergh','Carl_Franklin','Abbas_Kiarostami','Frank_Darabont','Richard_Donner','Charles_Herman-Wurmfeld','Tom_Tykwer','Ridley_Scott','Lee_Tamahori','Luc_Besson','David_Fincher','Quentin_Tarantino','Sam_Mendes','Terrence_Malick','Guy_Hamilton','Joel_Coen','Peter_Lord','Richard_Marquand','Roland_Emmerich','Martin_Scorsese','Wolfgang_Petersen','Richard_Franklin','Sergio_Leone','Ted_Demme','George_Roy_Hill','Mike_Hodges'}
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand','China','Mexico','Spain','Brazil','Denmark','Russia','Iran'}
+
+@attribute budget numeric
+
+@attribute lead_actor {'Charlton_Heston','Anjelica_Huston','Tom_Cruise','Patrick_Stewart','Chris_Cooper','Mark_Hamill','Jodie_Foster','Matt_Dillon','Michael_Rooker','Marlon_Brando','Don_Ameche','Kevin_Costner','Al_Pacino','Robert_Redford','Jennifer_Tilly','Kevin_Spacey','Victoire_Thivisol','Gene_Tierney','Cecilia_Roth','Fernanda_Montenegro','Harrison_Ford','Radha_Mitchell','Ulrich_Thomsen','Forest_Whitaker','Yun-Fat_Chow','Bill_Paxton','Jason_Flemyng','Nikita_Mikhalkov','Fred_MacMurray','Sterling_Hayden','George_Clooney','Denzel_Washington','Homayoun_Ershadi','Tim_Robbins','Matthew_Broderick','John_Cusack','Boa','Franka_Potente','Terence_Stamp','Russell_Crowe','Rena_Owen','Jean_Reno','Morgan_Freeman','John_Travolta','Mel_Gibson','Martin_Sheen','Sean_Connery','William_H._Macy','Robert_De_Niro','Bryan_Brown','Harvey_Keitel','Paul_Newman','Clive_Owen'}
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1958,Thriller,Crime,95,Orson_Welles,No,USA,829000,Charlton_Heston,Yes,8.1,No,Yes
+1990,Drama,Crime,110,Stephen_Frears,No,USA,?,Anjelica_Huston,Yes,7.0,No,No
+1996,Action,Adventure,110,Brian_De_Palma,No,USA,80000000,Tom_Cruise,No,7.1,No,No
+2000,Sci-Fi,Action,104,Bryan_Singer,No,USA,75000000,Patrick_Stewart,No,7.4,No,Yes
+1996,Animation,?,75,Nick_Park,No,UK,?,?,?,8.6,No,Yes
+1996,Drama,Mystery,135,John_Sayles,No,USA,5000000,Chris_Cooper,Yes,7.6,No,Yes
+1980,Drama,Sci-Fi,124,Irvin_Kershner,No,USA,18000000,Mark_Hamill,No,8.8,Yes,Yes
+1991,Drama,Thriller,118,Jonathan_Demme,Yes,USA,19000000,Jodie_Foster,Yes,8.6,Yes,Yes
+1989,Drama,Crime,102,Gus_Van_Sant_(as_Gus_Van_Sant_Jr.),No,USA,2500000,Matt_Dillon,No,7.4,No,Yes
+1990,Horror,Crime,83,John_McNaughton,No,USA,111000,Michael_Rooker,No,7.0,No,Yes
+1972,Drama,Action,175,Francis_Ford_Coppola,Yes,USA,6000000,Marlon_Brando,Yes,9.2,Yes,Yes
+1985,Sci-Fi,Comedy,117,Ron_Howard,Yes,USA,17500000,Don_Ameche,Yes,6.7,Yes,No
+1987,Drama,Action,119,Brian_De_Palma,No,USA,25000000,Kevin_Costner,No,7.9,Yes,Yes
+1997,Drama,Crime,127,Mike_Newell,No,USA,35000000,Al_Pacino,Yes,7.8,No,Yes
+1992,Drama,Sci-Fi,126,Phil_Alden_Robinson,No,USA,35000000,Robert_Redford,No,7.1,No,Yes
+1996,Drama,Romance,108,Lana_Wachowski_(as_The_Wachowski_Brothers),No,USA,4500000,Jennifer_Tilly,No,7.4,No,No
+1997,Thriller,Mystery,138,Curtis_Hanson,No,USA,35000000,Kevin_Spacey,Yes,8.3,Yes,Yes
+1996,Drama,?,97,Jacques_Doillon,No,France,?,Victoire_Thivisol,No,7.6,No,Yes
+1944,Crime,Film-Noir,88,Otto_Preminger,No,USA,1020000,Gene_Tierney,No,8.1,Yes,Yes
+1999,Drama,Comedy,101,Pedro_Almodovar,No,Spain,?,Cecilia_Roth,No,7.9,Yes,Yes
+1998,Drama,?,113,Walter_Salles,No,Brazil,2900000,Fernanda_Montenegro,No,8.0,No,Yes
+1997,Drama,War,111,Alan_J._Pakula,No,USA,86000000,Harrison_Ford,No,6.1,No,Yes
+2000,Sci-Fi,Action,109,David_Twohy,No,USA,23000000,Radha_Mitchell,No,7.1,No,Yes
+1998,Drama,?,105,Thomas_Vinterberg_(uncredited),No,Denmark,1300000,Ulrich_Thomsen,No,8.1,No,Yes
+1999,Drama,Crime,116,Jim_Jarmusch,No,France,?,Forest_Whitaker,Yes,7.5,No,Yes
+1992,Action,Crime,128,John_Woo,No,Hong_Kong,4500000,Yun-Fat_Chow,No,7.9,No,Yes
+1998,Thriller,Crime,121,Sam_Raimi,No,UK,30000000,Bill_Paxton,No,7.5,No,Yes
+1998,Comedy,Thriller,107,Guy_Ritchie,No,UK,?,Jason_Flemyng,No,8.2,No,Yes
+1994,Drama,?,135,Nikita_Mikhalkov,No,Russia,2800000,Nikita_Mikhalkov,No,8.0,Yes,Yes
+1944,Crime,Film-Noir,107,Billy_Wilder,Yes,USA,927262,Fred_MacMurray,No,8.3,No,Yes
+1950,Crime,Film-Noir,112,John_Huston,Yes,USA,1232000,Sterling_Hayden,No,7.9,No,Yes
+1998,Action,Crime,123,Steven_Soderbergh,Yes,USA,48000000,George_Clooney,Yes,7.0,No,Yes
+1995,Thriller,Mystery,102,Carl_Franklin,No,USA,27000000,Denzel_Washington,Yes,6.7,No,Yes
+1997,Drama,?,95,Abbas_Kiarostami,No,Iran,?,Homayoun_Ershadi,No,7.7,No,Yes
+1994,Drama,?,142,Frank_Darabont,No,USA,25000000,Tim_Robbins,Yes,9.3,No,Yes
+1985,Adventure,Fantasy,121,Richard_Donner,No,USA,20000000,Matthew_Broderick,No,7.0,No,Yes
+2000,Comedy,?,113,Stephen_Frears,No,UK,30000000,John_Cusack,No,7.5,No,Yes
+1995,Romance,?,80,Charles_Herman-Wurmfeld,No,USA,?,Boa,No,5.3,No,Yes
+1998,Action,Crime,81,Tom_Tykwer,No,Germany,?,Franka_Potente,No,7.8,No,Yes
+1999,Drama,Action,89,Steven_Soderbergh,Yes,USA,9000000,Terence_Stamp,No,7.1,No,Yes
+2000,Drama,Action,155,Ridley_Scott,No,USA,103000000,Russell_Crowe,Yes,8.5,Yes,Yes
+1994,Drama,Crime,102,Lee_Tamahori,No,New_Zealand,?,Rena_Owen,No,7.9,No,Yes
+1994,Drama,Romance,110,Luc_Besson,No,France,?,Jean_Reno,No,8.6,No,Yes
+1995,Thriller,Crime,127,David_Fincher,No,USA,33000000,Morgan_Freeman,Yes,8.6,No,Yes
+1994,Drama,Crime,154,Quentin_Tarantino,No,USA,8000000,John_Travolta,No,8.9,Yes,Yes
+1999,Drama,Comedy,122,Sam_Mendes,Yes,USA,15000000,Kevin_Spacey,Yes,8.4,Yes,Yes
+1995,Thriller,Crime,106,Bryan_Singer,No,USA,6000000,Kevin_Spacey,Yes,8.6,Yes,Yes
+1987,Drama,Action,110,Richard_Donner,No,USA,15000000,Mel_Gibson,No,7.6,No,Yes
+1973,Drama,Crime,94,Terrence_Malick,No,USA,450000,Martin_Sheen,No,7.9,No,Yes
+1964,Action,?,110,Guy_Hamilton,No,UK,3000000,Sean_Connery,Yes,7.8,Yes,Yes
+1996,Drama,Thriller,98,Joel_Coen,Yes,USA,7000000,William_H._Macy,No,8.1,Yes,Yes
+2000,Animation,Family,84,Peter_Lord,No,UK,45000000,?,?,7.0,No,Yes
+1983,Sci-Fi,Action,131,Richard_Marquand,No,USA,32500000,Mark_Hamill,No,8.4,No,Yes
+2000,Drama,War,165,Roland_Emmerich,No,USA,110000000,Mel_Gibson,No,7.1,No,No
+1990,Drama,Crime,146,Martin_Scorsese,Yes,USA,25000000,Robert_De_Niro,Yes,8.7,Yes,Yes
+2000,Action,Adventure,130,Wolfgang_Petersen,No,USA,140000000,George_Clooney,Yes,6.4,No,No
+1993,Animation,Comedy,30,Nick_Park,No,UK,?,?,?,8.4,Yes,Yes
+1974,Drama,Action,202,Francis_Ford_Coppola,Yes,USA,13000000,Al_Pacino,Yes,9.0,Yes,Yes
+1991,Action,Crime,108,Richard_Franklin,No,USA,16400000,Bryan_Brown,No,5.8,No,Yes
+1984,Drama,Thriller,229,Sergio_Leone,No,Italy,30000000,Robert_De_Niro,Yes,8.4,No,Yes
+1992,Thriller,Crime,99,Quentin_Tarantino,No,USA,1200000,Harvey_Keitel,No,8.3,No,Yes
+1996,Drama,?,112,Ted_Demme,No,USA,?,Matt_Dillon,No,7.2,No,Yes
+1973,Comedy,Crime,129,George_Roy_Hill,Yes,USA,5500000,Paul_Newman,Yes,8.3,Yes,Yes
+1998,Drama,Crime,94,Mike_Hodges,No,Ireland,?,Clive_Owen,No,7.2,No,Yes

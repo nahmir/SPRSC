@@ -1,0 +1,143 @@
+% Cabecalho para usuarios
+
+@relation perfil_user2
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director {'Sidney_Lumet','Peter_Chelsom','Brian_De_Palma','Rob_Reiner','George_Lucas','Nicholas_Ray','Paul_Verhoeven','Robert_Rossen','Richard_Marquand','Stuart_Baird','Michael_Caton-Jones','Martin_Scorsese','Ridley_Scott','Penny_Marshall','Renny_Harlin','Ron_Howard','Terry_Gilliam','John_Ford','Robert_Wise','John_McTiernan','Wolfgang_Petersen','Blake_Edwards','Richard_Donner','Frank_Darabont','Steven_Spielberg','Richard_Attenborough','Baz_Luhrmann','Phillip_Noyce','Mick_Jackson','Mel_Gibson','John_Frankenheimer','Brian_Helgeland','James_Cameron','Elia_Kazan','Joshua_Logan','Bille_August','Sam_Mendes','Milos_Forman','James_Ivory','Marco_Brambilla','Randa_Haines','Alfonso_Arau','Michael_Mann','Arthur_Penn','John_Carpenter','David_Lean','Harold_Ramis','Randall_Wallace','Nicholas_Meyer','Tony_Scott','John_Huston','Terrence_Malick','Kevin_Costner','Irvin_Kershner','Simon_West','Jan_de_Bont','Jonathan_Demme','Kirk_Jones','John_Woo','Ivan_Reitman','Lana_Wachowski_(as_The_Wachowski_Brothers)','Michael_Bay','John_Madden','William_Friedkin','Frank_Oz','John_G._Avildsen','Robert_Benton','Tim_Burton','Mark_Rydell','Hugh_Hudson','Robert_Rodriguez','Barry_Sonnenfeld','Gary_Ross','Oliver_Stone','Joe_Johnston','Andrew_Davis','Alan_J._Pakula','Victor_Fleming','Luc_Besson','Stanley_Kramer','Roland_Emmerich','Stanley_Kubrick','Bruce_Beresford','James_L._Brooks','Martin_Campbell','Robert_Mulligan','John_Hughes','Woody_Allen','Robert_Zemeckis','Joel_Coen','Peter_Weir','Neil_LaBute','Mike_Nichols'}
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand','China','Mexico','Spain','Brazil','Denmark','Russia','Iran','Czech_Republic','Cuba','Soviet_Union','Sweden'}
+
+@attribute budget numeric
+
+@attribute lead_actor {'Paul_Newman','Richard_Gere','Kevin_Costner','Tom_Cruise','Ewan_McGregor','James_Dean','Arnold_Schwarzenegger','Mark_Hamill','Tommy_Lee_Jones','Bruce_Willis','Robert_De_Niro','Russell_Crowe','Sylvester_Stallone','Kurt_Russell','Jeff_Bridges','Henry_Fonda','Michael_Rennie','Sean_Connery','Dustin_Hoffman','Audrey_Hepburn','Mel_Gibson','Wil_Wheaton','Tom_Hanks','Jeff_Goldblum','Ben_Kingsley','Paul_Mercurio','Harrison_Ford','Richard_Dreyfuss','Marlon_Brando','William_Holden','Liam_Neeson','Kevin_Spacey','F._Murray_Abraham','Anthony_Hopkins','William_Hurt','Marco_Leonardi','Daniel_Day-Lewis','Warren_Beatty','Sam_Neill','Omar_Sharif','Bill_Murray','Jack_Nicholson','Leonardo_DiCaprio','William_Shatner','Will_Smith','Humphrey_Bogart','Jim_Caviezel','Nicolas_Cage','Helen_Hunt','Jodie_Foster','Ian_Bannen','John_Travolta','Keanu_Reeves','Gwyneth_Paltrow','Al_Pacino','Gene_Hackman','Johnny_Depp','Katharine_Hepburn','Ben_Cross','Antonio_Banderas','Tobey_Maguire','Charlie_Sheen','Jake_Gyllenhaal','Meryl_Streep','Clark_Gable','Susan_Sarandon','Steven_Seagal','Spencer_Tracy','Kirk_Douglas','Morgan_Freeman','Tim_Robbins','Gregory_Peck','Emilio_Estevez','Woody_Allen','Gabriel_Byrne','Robin_Williams','Renee_Zellweger'}
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1982,Drama,?,129,Sidney_Lumet,No,USA,16000000,Paul_Newman,Yes,7.8,No,Yes
+1996,Comedy,?,106,Peter_Chelsom,No,USA,50000000,Richard_Gere,No,6.1,No,Yes
+1987,Drama,Action,119,Brian_De_Palma,No,USA,25000000,Kevin_Costner,No,7.9,Yes,Yes
+1996,Action,Adventure,110,Brian_De_Palma,No,USA,80000000,Tom_Cruise,No,7.1,No,Yes
+1992,Drama,Crime,138,Rob_Reiner,No,USA,40000000,Tom_Cruise,No,7.6,No,Yes
+1999,Sci-Fi,Action,136,George_Lucas,No,USA,115000000,Ewan_McGregor,No,6.5,No,No
+1955,Drama,?,111,Nicholas_Ray,No,USA,1500000,James_Dean,No,7.8,No,No
+1990,Sci-Fi,Action,113,Paul_Verhoeven,No,USA,65000000,Arnold_Schwarzenegger,No,7.5,No,No
+1961,Drama,?,134,Robert_Rossen,No,USA,2000000,Paul_Newman,Yes,8.0,Yes,Yes
+1983,Sci-Fi,Action,131,Richard_Marquand,No,USA,32500000,Mark_Hamill,No,8.4,No,Yes
+1998,Action,Thriller,131,Stuart_Baird,No,USA,60000000,Tommy_Lee_Jones,Yes,6.5,No,No
+1997,Action,Thriller,124,Michael_Caton-Jones,No,USA,60000000,Bruce_Willis,No,6.3,No,No
+1990,Drama,Crime,146,Martin_Scorsese,Yes,USA,25000000,Robert_De_Niro,Yes,8.7,Yes,No
+2000,Drama,Action,155,Ridley_Scott,No,USA,103000000,Russell_Crowe,Yes,8.5,Yes,Yes
+1990,Drama,?,121,Penny_Marshall,No,USA,?,Robert_De_Niro,Yes,7.8,No,Yes
+1993,Action,Crime,112,Renny_Harlin,No,USA,70000000,Sylvester_Stallone,No,6.4,No,No
+1991,Drama,Action,137,Ron_Howard,Yes,USA,75000000,Kurt_Russell,No,6.7,No,No
+1991,Drama,Romance,137,Terry_Gilliam,No,USA,24000000,Jeff_Bridges,Yes,7.6,Yes,No
+1955,Drama,War,123,John_Ford,Yes,USA,?,Henry_Fonda,Yes,7.8,Yes,Yes
+1951,Drama,Sci-Fi,92,Robert_Wise,Yes,USA,1200000,Michael_Rennie,No,7.8,No,No
+1990,Action,Thriller,135,John_McTiernan,No,USA,30000000,Sean_Connery,Yes,7.6,Yes,Yes
+1995,Drama,Action,127,Wolfgang_Petersen,No,USA,50000000,Dustin_Hoffman,Yes,6.6,No,No
+1961,Drama,Romance,115,Blake_Edwards,No,USA,2500000,Audrey_Hepburn,Yes,7.7,Yes,No
+1994,Comedy,Action,127,Richard_Donner,No,USA,75000000,Mel_Gibson,No,7.0,No,Yes
+1986,Drama,Comedy,89,Rob_Reiner,No,USA,8000000,Wil_Wheaton,No,8.1,No,Yes
+1999,Drama,Thriller,189,Frank_Darabont,No,USA,60000000,Tom_Hanks,Yes,8.5,No,Yes
+1997,Sci-Fi,Action,129,Steven_Spielberg,Yes,USA,73000000,Jeff_Goldblum,No,6.5,No,Yes
+1982,Drama,?,191,Richard_Attenborough,Yes,UK,22000000,Ben_Kingsley,Yes,8.1,Yes,Yes
+1992,Comedy,Romance,94,Baz_Luhrmann,No,Australia,?,Paul_Mercurio,No,7.2,No,Yes
+1992,Drama,Comedy,128,Penny_Marshall,No,USA,40000000,Tom_Hanks,Yes,7.2,No,Yes
+1992,Action,Thriller,117,Phillip_Noyce,No,USA,45000000,Harrison_Ford,No,6.9,No,No
+1992,Drama,Romance,129,Mick_Jackson,No,USA,25000000,Kevin_Costner,No,6.2,No,No
+1995,Drama,War,178,Mel_Gibson,Yes,USA,72000000,Mel_Gibson,No,8.4,Yes,Yes
+1998,Action,Crime,122,John_Frankenheimer,No,UK,55000000,Robert_De_Niro,Yes,7.3,No,No
+1999,Action,Thriller,100,Brian_Helgeland,No,USA,90000000,Mel_Gibson,No,7.1,No,No
+1977,Drama,Sci-Fi,132,Steven_Spielberg,Yes,USA,20000000,Richard_Dreyfuss,Yes,7.7,Yes,Yes
+1991,Sci-Fi,Action,137,James_Cameron,Yes,USA,102000000,Arnold_Schwarzenegger,No,8.5,Yes,Yes
+1954,Drama,Crime,108,Elia_Kazan,Yes,USA,910000,Marlon_Brando,Yes,8.2,Yes,Yes
+1955,Drama,?,115,Joshua_Logan,No,USA,?,William_Holden,Yes,7.2,Yes,Yes
+1998,Drama,?,134,Bille_August,No,UK,?,Liam_Neeson,No,7.5,No,Yes
+1999,Drama,Comedy,122,Sam_Mendes,Yes,USA,15000000,Kevin_Spacey,Yes,8.4,Yes,Yes
+1984,Drama,?,160,Milos_Forman,Yes,USA,18000000,F._Murray_Abraham,Yes,8.3,Yes,Yes
+1998,Drama,War,169,Steven_Spielberg,Yes,USA,70000000,Tom_Hanks,Yes,8.6,Yes,Yes
+1993,Drama,?,134,James_Ivory,No,USA,15000000,Anthony_Hopkins,Yes,7.9,No,Yes
+1993,Sci-Fi,Action,115,Marco_Brambilla,No,USA,57000000,Sylvester_Stallone,No,6.6,No,No
+1986,Drama,?,119,Randa_Haines,No,USA,?,William_Hurt,Yes,7.2,Yes,No
+1992,Drama,Romance,105,Alfonso_Arau,No,Mexico,2000000,Marco_Leonardi,No,7.2,No,Yes
+1992,Action,War,112,Michael_Mann,No,USA,40000000,Daniel_Day-Lewis,Yes,7.8,Yes,No
+1967,Drama,Crime,111,Arthur_Penn,No,USA,2500000,Warren_Beatty,No,7.9,Yes,No
+1984,Drama,Sci-Fi,115,John_Carpenter,No,USA,22000000,Jeff_Bridges,Yes,7.0,No,No
+1993,Sci-Fi,Action,127,Steven_Spielberg,Yes,USA,63000000,Sam_Neill,No,8.1,Yes,Yes
+1965,Drama,Romance,197,David_Lean,Yes,USA,11000000,Omar_Sharif,No,8.0,Yes,Yes
+1993,Comedy,Romance,101,Harold_Ramis,No,USA,14600000,Bill_Murray,No,8.0,No,No
+1990,Action,Thriller,124,Renny_Harlin,No,USA,70000000,Bruce_Willis,No,7.1,No,Yes
+1975,Drama,?,133,Milos_Forman,Yes,USA,4400000,Jack_Nicholson,Yes,8.7,Yes,Yes
+1998,Drama,Romance,132,Randall_Wallace,No,USA,35000000,Leonardo_DiCaprio,Yes,6.5,No,No
+1991,Sci-Fi,Action,113,Nicholas_Meyer,No,USA,30000000,William_Shatner,No,7.2,No,No
+1998,Action,Thriller,132,Tony_Scott,No,USA,90000000,Will_Smith,No,7.3,No,Yes
+1948,Drama,Thriller,100,John_Huston,Yes,USA,?,Humphrey_Bogart,Yes,7.9,Yes,Yes
+1998,Drama,War,170,Terrence_Malick,No,USA,52000000,Jim_Caviezel,No,7.6,No,No
+1990,Drama,Western,181,Kevin_Costner,Yes,USA,22000000,Kevin_Costner,No,8.0,Yes,Yes
+1980,Drama,Sci-Fi,124,Irvin_Kershner,No,USA,18000000,Mark_Hamill,No,8.8,Yes,Yes
+1997,Action,Adventure,115,Simon_West,No,USA,75000000,Nicolas_Cage,Yes,6.8,No,No
+1996,Action,Adventure,113,Jan_de_Bont,No,USA,92000000,Helen_Hunt,Yes,6.3,No,Yes
+1981,Action,Adventure,115,Steven_Spielberg,Yes,USA,18000000,Harrison_Ford,No,8.5,Yes,Yes
+1991,Drama,Thriller,118,Jonathan_Demme,Yes,USA,19000000,Jodie_Foster,Yes,8.6,Yes,Yes
+1998,Comedy,?,91,Kirk_Jones,No,UK,3000000,Ian_Bannen,No,7.4,No,No
+1996,Action,Thriller,108,John_Woo,No,USA,50000000,John_Travolta,No,6.0,No,No
+1989,Horror,Comedy,108,Ivan_Reitman,No,USA,37000000,Bill_Murray,No,6.5,No,No
+1999,Sci-Fi,Action,136,Lana_Wachowski_(as_The_Wachowski_Brothers),No,USA,63000000,Keanu_Reeves,No,8.7,Yes,Yes
+1998,Sci-Fi,Action,151,Michael_Bay,No,USA,140000000,Bruce_Willis,No,6.6,No,No
+1998,Comedy,Romance,123,John_Madden,No,USA,25000000,Gwyneth_Paltrow,Yes,7.2,Yes,Yes
+1973,Drama,Crime,130,Sidney_Lumet,No,Italy,3000000,Al_Pacino,Yes,7.8,No,No
+1971,Drama,Action,104,William_Friedkin,Yes,USA,1800000,Gene_Hackman,Yes,7.8,Yes,Yes
+1997,Action,Thriller,135,Richard_Donner,No,USA,75000000,Mel_Gibson,No,6.7,No,No
+1991,Comedy,?,99,Frank_Oz,No,USA,35000000,Bill_Murray,No,7.0,No,No
+1976,Drama,Action,120,John_G._Avildsen,Yes,USA,960000,Sylvester_Stallone,No,8.1,Yes,Yes
+1979,Drama,?,105,Robert_Benton,Yes,USA,8000000,Dustin_Hoffman,Yes,7.8,Yes,Yes
+1994,Drama,Comedy,127,Tim_Burton,No,USA,18000000,Johnny_Depp,No,7.9,Yes,No
+1981,Drama,?,109,Mark_Rydell,No,UK,?,Katharine_Hepburn,Yes,7.7,Yes,Yes
+1981,Drama,?,125,Hugh_Hudson,No,UK,5500000,Ben_Cross,No,7.2,Yes,Yes
+1995,Action,Romance,104,Robert_Rodriguez,No,USA,7000000,Antonio_Banderas,No,7.2,No,Yes
+1995,Drama,Action,105,Barry_Sonnenfeld,No,USA,30250000,Gene_Hackman,Yes,6.9,No,No
+1995,Action,Thriller,128,John_McTiernan,No,USA,90000000,Bruce_Willis,No,7.6,No,No
+1998,Comedy,?,124,Gary_Ross,No,USA,40000000,Tobey_Maguire,No,7.5,No,No
+1986,Drama,War,120,Oliver_Stone,Yes,UK,6000000,Charlie_Sheen,No,8.1,Yes,No
+1994,Comedy,Romance,141,James_Cameron,Yes,USA,115000000,Arnold_Schwarzenegger,No,7.2,No,Yes
+1999,Drama,?,108,Joe_Johnston,No,USA,25000000,Jake_Gyllenhaal,No,7.8,No,Yes
+1994,Action,Adventure,141,Phillip_Noyce,No,USA,62000000,Harrison_Ford,No,6.9,No,Yes
+1993,Action,Thriller,130,Andrew_Davis,No,USA,44000000,Harrison_Ford,No,7.8,Yes,Yes
+1982,Drama,?,150,Alan_J._Pakula,No,UK,12000000,Meryl_Streep,Yes,7.7,Yes,Yes
+1939,Drama,Romance,238,Victor_Fleming,Yes,USA,3977000,Clark_Gable,Yes,8.2,Yes,Yes
+1997,Sci-Fi,Action,126,Luc_Besson,No,France,93000000,Bruce_Willis,No,7.7,No,Yes
+1991,Drama,Action,130,Ridley_Scott,No,USA,16500000,Susan_Sarandon,Yes,7.4,Yes,Yes
+1992,Action,?,103,Andrew_Davis,No,France,35000000,Steven_Seagal,No,6.4,No,No
+1967,Drama,Comedy,108,Stanley_Kramer,No,USA,4000000,Spencer_Tracy,Yes,7.8,Yes,Yes
+1940,Drama,?,129,John_Ford,Yes,USA,800000,Henry_Fonda,Yes,8.1,Yes,Yes
+1996,Sci-Fi,Action,145,Roland_Emmerich,No,USA,75000000,Will_Smith,No,6.9,Yes,No
+1960,Drama,?,184,Stanley_Kubrick,No,USA,12000000,Kirk_Douglas,No,7.9,Yes,No
+1992,Drama,Action,118,Richard_Donner,No,USA,35000000,Mel_Gibson,No,6.7,No,Yes
+1989,Drama,?,99,Bruce_Beresford,No,USA,7500000,Morgan_Freeman,Yes,7.4,Yes,Yes
+1997,Drama,Comedy,139,James_L._Brooks,Yes,USA,50000000,Jack_Nicholson,Yes,7.7,Yes,Yes
+1998,Action,Adventure,136,Martin_Campbell,No,USA,65000000,Antonio_Banderas,No,6.7,No,No
+1994,Drama,?,142,Frank_Darabont,No,USA,25000000,Tim_Robbins,Yes,9.3,No,Yes
+1962,Drama,?,129,Robert_Mulligan,No,USA,2000000,Gregory_Peck,Yes,8.3,Yes,Yes
+1985,Drama,Comedy,97,John_Hughes,No,USA,1000000,Emilio_Estevez,No,7.9,No,No
+1979,Drama,Romance,96,Woody_Allen,Yes,USA,?,Woody_Allen,No,8.0,No,No
+1994,Comedy,Romance,142,Robert_Zemeckis,Yes,USA,55000000,Tom_Hanks,Yes,8.8,Yes,Yes
+1990,Drama,?,115,Joel_Coen,Yes,USA,14000000,Gabriel_Byrne,No,7.8,No,No
+1989,Drama,?,128,Peter_Weir,No,USA,16400000,Robin_Williams,Yes,8.0,Yes,Yes
+2000,Comedy,Thriller,110,Neil_LaBute,No,Germany,35000000,Renee_Zellweger,Yes,6.3,No,No
+1967,Drama,Romance,106,Mike_Nichols,Yes,USA,3000000,Dustin_Hoffman,Yes,8.0,Yes,Yes

@@ -1,0 +1,37 @@
+% Cabecalho para usuarios
+
+@relation perfil_user137
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand','China','Mexico'}
+
+@attribute budget numeric
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1969,Comedy,?,85,Yes,USA,1500000,No,7.3,No,No
+1995,Family,Comedy,91,No,Australia,30000000,No,6.8,Yes,No
+1964,Comedy,Musical,87,No,UK,560000,No,7.7,No,No
+1989,Comedy,?,104,Yes,USA,19000000,Yes,8.0,No,No
+1972,Comedy,?,154,No,UK,?,No,7.6,No,No
+1977,Comedy,Romance,93,Yes,USA,4000000,No,8.1,Yes,Yes
+1989,Comedy,Romance,96,No,USA,16000000,No,7.6,No,Yes
+1973,Comedy,Crime,129,Yes,USA,5500000,Yes,8.3,Yes,Yes
+1992,Horror,Comedy,104,Yes,New Zealand,3000000,No,7.6,No,Yes
+1940,Comedy,?,72,No,USA,?,No,7.3,No,Yes

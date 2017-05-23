@@ -1,0 +1,55 @@
+% Cabecalho para usuarios
+
+@relation perfil_user24
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand','China','Mexico','Spain','Brazil','Denmark','Russia','Iran','Czech_Republic','Cuba','Soviet_Union','Sweden'}
+
+@attribute budget numeric
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1997,Sci-Fi,Action,138,No,USA,80000000,No,7.3,No,No
+2000,Action,Adventure,130,No,USA,140000000,Yes,6.4,No,No
+1979,Sci-Fi,?,108,No,USA,16000000,Yes,4.9,No,No
+1958,Horror,Sci-Fi,94,No,USA,700000,No,7.1,No,No
+1976,Sci-Fi,Action,119,No,USA,9000000,No,6.8,No,No
+1986,Horror,Comedy,88,No,USA,5000000,No,6.8,No,No
+1999,Sci-Fi,Action,97,No,Canada,?,No,6.8,No,No
+1948,Drama,Thriller,100,Yes,USA,?,Yes,7.9,Yes,No
+1971,Sci-Fi,Action,98,No,USA,2500000,No,6.3,No,No
+1992,Sci-Fi,Adventure,102,No,USA,?,No,6.2,No,No
+1982,Family,Fantasy,115,Yes,USA,10500000,No,7.9,Yes,No
+1984,Horror,Action,95,No,USA,700000,No,6.4,No,No
+1994,Drama,Romance,91,No,USA,120000,No,7.1,No,No
+1999,Sci-Fi,Action,100,No,USA,30000000,No,4.2,No,No
+1997,Drama,?,97,No,Canada,25000,No,7.3,No,Yes
+1956,Sci-Fi,?,98,No,USA,1900000,No,7.7,No,Yes
+1982,Sci-Fi,Action,96,No,USA,17000000,Yes,6.8,No,Yes
+1996,Thriller,Crime,107,No,USA,29000000,No,6.2,No,Yes
+1952,Sci-Fi,Adventure,105,No,USA,1850000,Yes,7.3,No,Yes
+1998,Comedy,Thriller,107,No,UK,?,No,8.2,No,Yes
+1991,Drama,Action,130,No,USA,16500000,Yes,7.4,Yes,Yes
+1998,Sci-Fi,Thriller,100,No,Australia,27000000,No,7.7,No,Yes
+1966,Sci-Fi,Adventure,100,No,USA,5115000,No,6.8,Yes,Yes
+1984,Sci-Fi,Action,107,Yes,UK,6400000,No,8.0,No,Yes
+1978,Animation,Family,132,No,USA,4000000,?,6.2,No,Yes
+1984,Drama,Sci-Fi,113,No,UK,?,No,7.2,No,Yes
+1986,Family,Adventure,90,No,USA,9000000,No,6.9,No,Yes
+1987,Sci-Fi,Action,102,No,USA,13000000,No,7.5,No,Yes

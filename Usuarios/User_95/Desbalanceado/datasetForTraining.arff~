@@ -1,0 +1,57 @@
+% Cabecalho para usuarios
+
+@relation perfil_user24
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand','China','Mexico','Spain','Brazil','Denmark','Russia','Iran','Czech_Republic','Cuba','Soviet_Union'}
+
+@attribute budget numeric
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1994,Action,Adventure,141,No,USA,62000000,No,6.9,No,No
+1999,Thriller,?,107,No,USA,40000000,No,8.1,No,No
+1994,Comedy,Romance,117,No,UK,4400000,No,7.1,No,No
+1994,Action,Thriller,118,Yes,USA,34000000,No,7.3,No,No
+1994,Action,Romance,116,No,USA,30000000,No,7.2,Yes,No
+1994,Comedy,Romance,141,Yes,USA,115000000,No,7.2,No,No
+1993,Action,Thriller,130,No,USA,44000000,No,7.8,Yes,No
+1980,Comedy,?,109,No,USA,10000000,Yes,6.1,No,No
+1995,Drama,Musical,175,No,France,?,No,7.5,No,No
+2000,Comedy,?,106,No,USA,84000000,No,4.3,No,No
+1990,Drama,Crime,146,Yes,USA,25000000,Yes,8.7,Yes,No
+1994,Comedy,Romance,111,Yes,UK,30000000,Yes,7.3,No,No
+1993,Sci-Fi,Action,127,Yes,USA,63000000,No,8.1,Yes,No
+1992,Thriller,Crime,99,No,USA,1200000,No,8.3,No,No
+1992,Drama,?,100,No,USA,12500000,Yes,7.8,No,No
+1990,Sci-Fi,Action,103,No,USA,31000000,No,6.4,No,Yes
+1994,Comedy,Romance,142,Yes,USA,55000000,Yes,8.8,Yes,Yes
+1995,Drama,?,122,No,UK,11000000,Yes,7.6,Yes,Yes
+1990,Sci-Fi,Action,113,No,USA,65000000,No,7.5,No,Yes
+1994,Comedy,Action,127,No,USA,75000000,No,7.0,No,Yes
+1995,Thriller,Crime,127,No,USA,33000000,Yes,8.6,No,Yes
+1993,Drama,Romance,171,No,China,?,No,8.1,No,Yes
+1993,Drama,War,195,Yes,USA,22000000,No,8.9,Yes,Yes
+1993,Drama,?,109,No,USA,?,No,7.5,No,Yes
+1992,Drama,Action,118,No,USA,35000000,No,6.7,No,Yes
+1964,Action,?,110,No,UK,3000000,Yes,7.8,Yes,Yes
+1996,Drama,Thriller,98,Yes,USA,7000000,No,8.1,Yes,Yes
+1999,Drama,War,114,No,USA,75000000,Yes,7.1,No,Yes
+1998,Drama,War,169,Yes,USA,70000000,Yes,8.6,Yes,Yes
+1981,Drama,War,149,No,West_Germany,14000000,No,8.4,No,Yes

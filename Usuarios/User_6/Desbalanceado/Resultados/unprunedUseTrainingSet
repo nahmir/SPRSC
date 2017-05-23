@@ -1,0 +1,126 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -U -M 2
+Relation:     perfil_user24
+Instances:    59
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+genre1 = Animation: Yes (9.0)
+genre1 = Family: No (2.0)
+genre1 = Comedy
+|   year <= 1981: No (3.0/1.0)
+|   year > 1981: Yes (11.0)
+genre1 = Action: Yes (6.0/1.0)
+genre1 = Drama
+|   genre2 = Family: Yes (0.0)
+|   genre2 = Adventure: Yes (0.0)
+|   genre2 = Romance
+|   |   country = USA
+|   |   |   IMDB_rating <= 7: No (3.0/1.0)
+|   |   |   IMDB_rating > 7: Yes (2.47)
+|   |   country = UK: Yes (2.0/1.0)
+|   |   country = Germany: Yes (0.0)
+|   |   country = Austria: Yes (0.0)
+|   |   country = Australia: Yes (0.0)
+|   |   country = Japan: Yes (0.0)
+|   |   country = France: Yes (0.47)
+|   |   country = Canada: Yes (0.0)
+|   |   country = Italy: Yes (0.0)
+|   |   country = Ireland: Yes (0.0)
+|   |   country = Netherlands: Yes (0.0)
+|   |   country = Botswana: Yes (0.0)
+|   |   country = Hong_Kong: Yes (0.0)
+|   |   country = West_Germany: Yes (0.0)
+|   |   country = Belgium: Yes (0.0)
+|   |   country = New_Zealand: Yes (0.0)
+|   |   country = China: Yes (0.0)
+|   |   country = Mexico: Yes (0.0)
+|   |   country = Spain: Yes (0.0)
+|   |   country = Brazil: Yes (0.0)
+|   |   country = Denmark: Yes (0.0)
+|   |   country = Russia: Yes (0.0)
+|   |   country = Iran: Yes (0.0)
+|   |   country = Czech_Republic: Yes (0.0)
+|   |   country = Cuba: Yes (0.0)
+|   |   country = Soviet_Union: Yes (0.0)
+|   |   country = Sweden: Yes (0.0)
+|   genre2 = Crime: No (1.13/0.13)
+|   genre2 = Thriller: Yes (0.0)
+|   genre2 = Action: Yes (1.13)
+|   genre2 = Sci-Fi: Yes (1.13)
+|   genre2 = Comedy: No (1.13/0.13)
+|   genre2 = War: Yes (1.13)
+|   genre2 = Musical: Yes (1.13)
+|   genre2 = Mystery: Yes (0.0)
+|   genre2 = Drama: Yes (0.0)
+|   genre2 = Western: Yes (2.27/1.0)
+|   genre2 = Fantasy: Yes (0.0)
+|   genre2 = Horror: Yes (0.0)
+|   genre2 = Short: Yes (0.0)
+|   genre2 = Film-Noir: Yes (0.0)
+|   genre2 = Documentary: Yes (0.0)
+genre1 = Romance: Yes (0.0)
+genre1 = Sci-Fi: No (1.0)
+genre1 = Thriller: Yes (0.0)
+genre1 = Horror: Yes (0.0)
+genre1 = Documentary: Yes (0.0)
+genre1 = Western: Yes (4.0/2.0)
+genre1 = Musical: Yes (6.0/1.0)
+genre1 = Film-Noir: Yes (0.0)
+genre1 = Crime: Yes (0.0)
+genre1 = Adventure: Yes (0.0)
+genre1 = War: Yes (0.0)
+genre1 = Mystery: Yes (0.0)
+
+Number of Leaves  : 	62
+
+Size of the tree : 	67
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          51               86.4407 %
+Incorrectly Classified Instances         8               13.5593 %
+Kappa statistic                          0.608 
+Mean absolute error                      0.1795
+Root mean squared error                  0.2939
+Relative absolute error                 46.837  %
+Root relative squared error             67.4889 %
+Total Number of Instances               59     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,955    0,400    0,875      0,955    0,913      0,620    0,930     0,967     Yes
+                 0,600    0,045    0,818      0,600    0,692      0,620    0,930     0,799     No
+Weighted Avg.    0,864    0,310    0,861      0,864    0,857      0,620    0,930     0,924     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 42  2 |  a = Yes
+  6  9 |  b = No
+

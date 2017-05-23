@@ -1,0 +1,99 @@
+% Cabecalho para usuarios
+
+@relation perfil_user24
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director {'David_Lean','Spike_Jonze','Rob_Reiner','Harold_Ramis','Milos_Forman','Steven_Spielberg','Howard_Hawks','Jonathan_Lynn','Richard_Attenborough','Alfred_Hitchcock','Roland_Joffe','Michael_Curtiz','Jan_Sverak','Gary_Ross','Roberto_Benigni','Orson_Welles','Stanley_Kubrick','Francis_Ford_Coppola','Pedro_Almodovar','Sidney_Lumet','Joel_Coen','Amy_Heckerling','Norman_Jewison','Frank_Capra','Gus_Van_Sant','Mel_Gibson','Martin_Scorsese','John_Huston','Neil_LaBute_(as_Neil_Labute)','Barry_Levinson','Peter_Weir','Peter_Yates','Ron_Shelton','Daniel_Myrick','Bobby_Farrelly','Frank_Darabont','Elia_Kazan','Robert_Redford','Hugh_Hudson','Bruce_Beresford','John_Hughes','Paul_Brickman','Robert_Mulligan','Ridley_Scott','Charles_Crichton','Arthur_Penn','Lasse_Hallstrom','Woody_Allen','Philip_Kaufman','Oliver_Stone','Giuseppe_Tornatore','Michelangelo_Antonioni'}
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand','China','Mexico','Spain','Brazil','Denmark','Russia','Iran','Czech_Republic','Cuba','Soviet_Union','Sweden'}
+
+@attribute budget numeric
+
+@attribute lead_actor {'William_Holden','John_Cusack','Wil_Wheaton','Bill_Murray','Jack_Nicholson','Harrison_Ford','Humphrey_Bogart','Joe_Pesci','Ben_Kingsley','Cary_Grant','Sam_Waterston','Zdenek_Sverak','Tobey_Maguire','Roberto_Benigni','Orson_Welles','Keir_Dullea','Marlon_Brando','Carmen_Maura','Paul_Newman','Nicolas_Cage','Sean_Penn','Cher','James_Stewart','Robin_Williams','Mel_Gibson','Robert_De_Niro','Aaron_Eckhart','Dustin_Hoffman','Dennis_Christopher','Kevin_Costner','Heather_Donahue','Ben_Stiller','Tim_Robbins','Michael_Douglas','Donald_Sutherland','Ben_Cross','Morgan_Freeman','Emilio_Estevez','Tom_Cruise','Celia_Johnson','Gene_Hackman','Liam_Neeson','Henry_Fonda','Gregory_Peck','Martin_Sheen','William_H._Macy','John_Cleese','Al_Pacino','F._Murray_Abraham','Tom_Hanks','Warren_Beatty','Sam_Neill','Anton_Glanzelius','Woody_Allen','Sam_Shepard','Martin_Landau','Billy_Crystal','Charlie_Sheen','Philippe_Noiret','David_Hemmings'}
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1957,Drama,War,161,David_Lean,Yes,UK,3000000,William_Holden,Yes,8.2,Yes,Yes
+1999,Comedy,?,112,Spike_Jonze,No,USA,13000000,John_Cusack,No,7.8,No,No
+1986,Drama,Comedy,89,Rob_Reiner,No,USA,8000000,Wil_Wheaton,No,8.1,No,Yes
+1993,Comedy,Romance,101,Harold_Ramis,No,USA,14600000,Bill_Murray,No,8.0,No,No
+1975,Drama,?,133,Milos_Forman,Yes,USA,4400000,Jack_Nicholson,Yes,8.7,Yes,Yes
+1981,Action,Adventure,115,Steven_Spielberg,Yes,USA,18000000,Harrison_Ford,No,8.5,Yes,Yes
+1946,Film-Noir,Mystery,114,Howard_Hawks,No,USA,250000,Humphrey_Bogart,Yes,8.0,No,Yes
+1992,Comedy,?,120,Jonathan_Lynn,No,USA,11000000,Joe_Pesci,Yes,7.5,Yes,Yes
+1982,Drama,?,191,Richard_Attenborough,Yes,UK,22000000,Ben_Kingsley,Yes,8.1,Yes,Yes
+1959,Drama,Thriller,136,Alfred_Hitchcock,No,USA,3101000,Cary_Grant,No,8.4,No,Yes
+1984,Drama,War,141,Roland_Joffe,No,UK,?,Sam_Waterston,No,7.9,Yes,Yes
+1942,Drama,Romance,102,Michael_Curtiz,Yes,USA,950000,Humphrey_Bogart,Yes,8.5,Yes,Yes
+1996,Comedy,?,105,Jan_Sverak,No,Czech_Republic,?,Zdenek_Sverak,No,7.8,Yes,Yes
+1998,Comedy,?,124,Gary_Ross,No,USA,40000000,Tobey_Maguire,No,7.5,No,Yes
+1997,Drama,Comedy,116,Roberto_Benigni,No,Italy,20000000,Roberto_Benigni,Yes,8.6,Yes,Yes
+1941,Drama,?,119,Orson_Welles,No,USA,839727,Orson_Welles,No,8.4,Yes,Yes
+1968,Drama,Sci-Fi,149,Stanley_Kubrick,No,UK,12000000,Keir_Dullea,No,8.3,Yes,Yes
+1972,Drama,Action,175,Francis_Ford_Coppola,Yes,USA,6000000,Marlon_Brando,Yes,9.2,Yes,Yes
+1988,Drama,Comedy,88,Pedro_Almodovar,No,Spain,700000,Carmen_Maura,No,7.6,No,Yes
+1982,Drama,?,129,Sidney_Lumet,No,USA,16000000,Paul_Newman,Yes,7.8,No,Yes
+1987,Comedy,?,94,Joel_Coen,Yes,USA,6000000,Nicolas_Cage,Yes,7.4,No,No
+1982,Comedy,?,90,Amy_Heckerling,No,USA,4500000,Sean_Penn,Yes,7.2,No,Yes
+1987,Comedy,?,102,Norman_Jewison,No,USA,15000000,Cher,Yes,7.1,Yes,Yes
+1939,Drama,?,129,Frank_Capra,Yes,USA,1500000,James_Stewart,Yes,8.2,Yes,Yes
+1997,Drama,?,126,Gus_Van_Sant,No,USA,10000000,Robin_Williams,Yes,8.3,Yes,Yes
+1995,Drama,War,178,Mel_Gibson,Yes,USA,72000000,Mel_Gibson,No,8.4,Yes,Yes
+1976,Drama,Thriller,113,Martin_Scorsese,Yes,USA,1300000,Robert_De_Niro,Yes,8.3,No,Yes
+1948,Drama,Thriller,100,John_Huston,Yes,USA,?,Humphrey_Bogart,Yes,7.9,Yes,Yes
+1997,Drama,?,97,Neil_LaBute_(as_Neil_Labute),No,Canada,25000,Aaron_Eckhart,No,7.3,No,No
+1997,Drama,Comedy,97,Barry_Levinson,Yes,USA,15000000,Dustin_Hoffman,Yes,7.1,No,Yes
+1985,Drama,Romance,112,Peter_Weir,No,USA,12000000,Harrison_Ford,No,7.4,Yes,Yes
+1979,Drama,?,101,Peter_Yates,No,USA,2300000,Dennis_Christopher,No,7.7,Yes,Yes
+1988,Comedy,?,108,Ron_Shelton,No,USA,7000000,Kevin_Costner,No,7.1,No,Yes
+1999,Horror,?,81,Daniel_Myrick,No,USA,60000,Heather_Donahue,No,6.4,No,No
+1998,Comedy,?,119,Bobby_Farrelly,No,USA,23000000,Ben_Stiller,No,7.1,No,Yes
+1994,Drama,?,142,Frank_Darabont,No,USA,25000000,Tim_Robbins,Yes,9.3,No,Yes
+1954,Drama,Crime,108,Elia_Kazan,Yes,USA,910000,Marlon_Brando,Yes,8.2,Yes,Yes
+1995,Drama,Romance,114,Rob_Reiner,No,USA,62000000,Michael_Douglas,Yes,6.8,No,Yes
+1980,Drama,?,124,Robert_Redford,Yes,USA,6000000,Donald_Sutherland,No,7.8,Yes,Yes
+1981,Drama,?,125,Hugh_Hudson,No,UK,5500000,Ben_Cross,No,7.2,Yes,Yes
+1988,Drama,?,133,Barry_Levinson,Yes,USA,25000000,Dustin_Hoffman,Yes,8.0,Yes,Yes
+1989,Drama,?,99,Bruce_Beresford,No,USA,7500000,Morgan_Freeman,Yes,7.4,Yes,Yes
+1985,Drama,Comedy,97,John_Hughes,No,USA,1000000,Emilio_Estevez,No,7.9,No,Yes
+1983,Comedy,?,99,Paul_Brickman,No,USA,6200000,Tom_Cruise,No,6.8,No,Yes
+1945,Drama,Romance,86,David_Lean,Yes,UK,?,Celia_Johnson,No,8.1,No,Yes
+1974,Drama,Mystery,113,Francis_Ford_Coppola,Yes,USA,1600000,Gene_Hackman,Yes,7.9,No,No
+1993,Drama,War,195,Steven_Spielberg,Yes,USA,22000000,Liam_Neeson,No,8.9,Yes,Yes
+1957,Drama,?,96,Sidney_Lumet,No,USA,350000,Henry_Fonda,Yes,8.9,No,Yes
+1962,Drama,?,129,Robert_Mulligan,No,USA,2000000,Gregory_Peck,Yes,8.3,Yes,Yes
+1979,Drama,War,153,Francis_Ford_Coppola,Yes,USA,31500000,Martin_Sheen,No,8.5,Yes,No
+1996,Drama,Thriller,98,Joel_Coen,Yes,USA,7000000,William_H._Macy,No,8.1,Yes,Yes
+1982,Sci-Fi,?,117,Ridley_Scott,No,USA,28000000,Harrison_Ford,No,8.2,No,No
+1988,Comedy,?,108,Charles_Crichton,No,UK,7500000,John_Cleese,No,7.6,Yes,No
+1974,Drama,Action,202,Francis_Ford_Coppola,Yes,USA,13000000,Al_Pacino,Yes,9.0,Yes,Yes
+1984,Drama,?,160,Milos_Forman,Yes,USA,18000000,F._Murray_Abraham,Yes,8.3,Yes,Yes
+1998,Drama,War,169,Steven_Spielberg,Yes,USA,70000000,Tom_Hanks,Yes,8.6,Yes,Yes
+1980,Drama,?,129,Martin_Scorsese,Yes,USA,18000000,Robert_De_Niro,Yes,8.2,Yes,Yes
+1967,Drama,Crime,111,Arthur_Penn,No,USA,2500000,Warren_Beatty,No,7.9,Yes,Yes
+1993,Sci-Fi,Action,127,Steven_Spielberg,Yes,USA,63000000,Sam_Neill,No,8.1,Yes,No
+1985,Drama,?,101,Lasse_Hallstrom,No,Sweden,?,Anton_Glanzelius,No,7.7,No,Yes
+1977,Comedy,Romance,93,Woody_Allen,Yes,USA,4000000,Woody_Allen,No,8.1,Yes,Yes
+1983,Drama,?,193,Philip_Kaufman,No,USA,27000000,Sam_Shepard,No,7.9,Yes,Yes
+1989,Comedy,?,104,Woody_Allen,Yes,USA,19000000,Martin_Landau,Yes,8.0,No,No
+1989,Comedy,Romance,96,Rob_Reiner,No,USA,16000000,Billy_Crystal,No,7.6,No,Yes
+1986,Drama,War,120,Oliver_Stone,Yes,UK,6000000,Charlie_Sheen,No,8.1,Yes,No
+1979,Drama,Romance,96,Woody_Allen,Yes,USA,?,Woody_Allen,No,8.0,No,No
+1988,Drama,Romance,155,Giuseppe_Tornatore,No,Italy,5000000,Philippe_Noiret,No,8.5,Yes,Yes
+1966,Drama,Mystery,111,Michelangelo_Antonioni,No,UK,1800000,David_Hemmings,No,7.7,No,Yes

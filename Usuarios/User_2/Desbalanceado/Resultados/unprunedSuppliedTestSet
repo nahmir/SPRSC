@@ -1,0 +1,107 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -U -M 2
+Relation:     perfil_user2
+Instances:    80
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+IMDB_rating <= 6.9
+|   genre1 = Animation: No (0.0)
+|   genre1 = Family: No (0.0)
+|   genre1 = Comedy: Yes (1.0)
+|   genre1 = Action: No (7.0/1.0)
+|   genre1 = Drama: No (4.0)
+|   genre1 = Romance: No (0.0)
+|   genre1 = Sci-Fi: No (4.0/1.0)
+|   genre1 = Thriller: No (0.0)
+|   genre1 = Horror: No (1.0)
+|   genre1 = Documentary: No (0.0)
+|   genre1 = Western: No (0.0)
+|   genre1 = Musical: No (0.0)
+|   genre1 = Film-Noir: No (0.0)
+|   genre1 = Crime: No (0.0)
+|   genre1 = Adventure: No (0.0)
+|   genre1 = War: No (0.0)
+|   genre1 = Mystery: No (0.0)
+IMDB_rating > 6.9
+|   director_win_oscar = Yes: Yes (22.0/2.0)
+|   director_win_oscar = No
+|   |   genre2 = Family: Yes (0.0)
+|   |   genre2 = Adventure: Yes (1.41/0.1)
+|   |   genre2 = Romance
+|   |   |   IMDB_rating <= 7.3: Yes (4.72/0.24)
+|   |   |   IMDB_rating > 7.3
+|   |   |   |   run_time <= 118: No (2.97/0.48)
+|   |   |   |   run_time > 118: Yes (2.21/1.0)
+|   |   genre2 = Crime: No (4.24/1.93)
+|   |   genre2 = Thriller
+|   |   |   run_time <= 120: No (2.03/0.52)
+|   |   |   run_time > 120: Yes (5.03)
+|   |   genre2 = Action
+|   |   |   run_time <= 113: No (2.97/0.48)
+|   |   |   run_time > 113: Yes (6.93/0.24)
+|   |   genre2 = Sci-Fi: Yes (2.83/1.21)
+|   |   genre2 = Comedy: Yes (2.83/0.21)
+|   |   genre2 = War: No (2.83/0.62)
+|   |   genre2 = Musical: Yes (0.0)
+|   |   genre2 = Mystery: Yes (0.0)
+|   |   genre2 = Drama: Yes (0.0)
+|   |   genre2 = Western: Yes (0.0)
+|   |   genre2 = Fantasy: Yes (0.0)
+|   |   genre2 = Horror: Yes (0.0)
+|   |   genre2 = Short: Yes (0.0)
+|   |   genre2 = Film-Noir: Yes (0.0)
+|   |   genre2 = Documentary: Yes (0.0)
+
+Number of Leaves  : 	40
+
+Size of the tree : 	48
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          19               59.375  %
+Incorrectly Classified Instances        13               40.625  %
+Kappa statistic                          0.1875
+Mean absolute error                      0.434 
+Root mean squared error                  0.57  
+Relative absolute error                 86.8061 %
+Root relative squared error            110.7478 %
+Total Number of Instances               32     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,813    0,625    0,565      0,813    0,667      0,209    0,580     0,548     Yes
+                 0,375    0,188    0,667      0,375    0,480      0,209    0,580     0,578     No
+Weighted Avg.    0,594    0,406    0,616      0,594    0,573      0,209    0,580     0,563     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 13  3 |  a = Yes
+ 10  6 |  b = No
+

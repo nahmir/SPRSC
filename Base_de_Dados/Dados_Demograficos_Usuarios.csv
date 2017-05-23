@@ -1,0 +1,23 @@
+Usuario,Genero,Idade,Ocupacao,Cidade,Estado
+2,Homem,Maior de 56,Autonomo,MARRERO,LA
+3,Homem,Entre 25 e 34,Cientista,SAINT PAUL,MN
+5,Homem,Entre 25 e 34,Escritor,MINNEAPOLIS,MN
+6,Mulher,Entre 50 e 55,Dona de Casa,SAINT PAUL,MN
+7,Homem,Entre 35 e 44,Professor,DANBURY,CT
+11,Mulher,Entre 25 e 34,Professor,BUXTON,ME
+16,Mulher,Entre 35 e 44,Outros,PATUXENT RIVER,MD
+17,Homem,Entre 50 e 55,Professor,MODESTO,CA
+19,Homem,Menor de 18,Estudante,ROYAL OAK,MI
+24,Mulher,Entre 25 e 34,Executivo,NEW YORK,NY
+31,Homem,Maior de 56,Executivo,NEW CANAAN,CT
+44,Homem,Entre 45 e 49,Tecnico ou Engenheiro,REDMOND,WA
+51,Mulher,Menor de 18,Estudante,OSSINING,NY
+62,Mulher,Entre 35 e 44,Administrador,SEATTLE,WA
+88,Mulher,Entre 45 e 49,Professor,ARLINGTON,MA
+95,Homem,Entre 45 e 49,Outros,EVERETT,WA
+101,Mulher,Entre 18 e 24,Administrador,FORT LAUDERDALE,FL
+111,Homem,Entre 35 e 44,Cientista,MINNEAPOLIS,MN
+137,Mulher,Entre 45 e 49,Profissionais da Saude,AUSTIN,TX
+138,Homem,Entre 18 e 24,Escritor,ARLINGTON,VA
+280,Homem,Entre 50 e 55,Executivo,PHILADELPHIA,PA
+314,Mulher,Maior de 56,Dona de Casa,AMBOY,IN

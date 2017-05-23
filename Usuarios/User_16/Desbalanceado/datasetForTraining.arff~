@@ -1,0 +1,56 @@
+% Cabecalho para usuarios
+
+@relation perfil_user16
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand'}
+
+@attribute budget numeric
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1998,Drama,?,103,No,USA,60000000,No,8.1,No,Yes
+1944,Comedy,Thriller,118,Yes,USA,1120175,No,8.0,No,Yes
+1999,Comedy,Romance,97,No,USA,30000000,Yes,7.2,No,Yes
+1999,Comedy,Romance,116,No,USA,70000000,Yes,5.5,No,Yes
+1999,Comedy,Romance,107,No,USA,25000000,No,6.0,No,Yes
+1999,Comedy,?,95,No,USA,33000000,No,6.6,No,Yes
+1999,Animation,Family,86,No,USA,70000000,?,8.0,No,Yes
+1990,Sci-Fi,Action,103,No,USA,31000000,No,6.4,No,Yes
+1998,Animation,Family,95,No,USA,120000000,?,7.2,No,Yes
+1985,Comedy,Romance,104,No,USA,4500000,No,5.9,No,Yes
+1988,Animation,Adventure,104,Yes,USA,70000000,?,7.7,Yes,No
+1999,Comedy,?,97,No,USA,12000000,No,2.6,No,No
+1999,Comedy,Romance,88,No,USA,20000000,No,5.4,No,No
+1999,Comedy,Romance,95,No,USA,10000000,No,5.8,No,No
+1999,Sci-Fi,Action,106,No,USA,170000000,No,4.8,No,No
+1999,Action,Crime,92,No,USA,50000000,No,4.2,No,No
+1999,Comedy,Romance,101,No,USA,51000000,No,5.0,No,No
+1999,Horror,Thriller,82,No,USA,35000000,No,5.6,No,No
+1998,Comedy,?,85,No,USA,71500000,No,5.3,No,No
+1958,Comedy,Romance,106,No,USA,?,Yes,6.9,No,No
+1987,Sci-Fi,Action,90,No,UK,17000000,No,3.7,No,No
+1982,Horror,?,120,No,USA,8000000,No,6.9,No,No
+1999,Family,Adventure,78,No,USA,90000000,No,4.1,No,No
+1999,Sci-Fi,Action,105,No,USA,60000000,No,5.8,No,No
+1999,Comedy,Action,121,No,USA,68000000,No,6.0,No,No
+1999,Comedy,Romance,102,No,UK,75000000,No,5.8,No,No
+1994,Drama,Western,133,No,USA,30000000,No,7.5,Yes,No
+1999,Family,Comedy,77,No,USA,70000000,No,3.9,No,No
+1999,Comedy,?,97,No,USA,55000000,No,6.4,No,No

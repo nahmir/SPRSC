@@ -1,0 +1,194 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -U -M 2
+Relation:     perfil_user44
+Instances:    167
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+genre1 = Animation
+|   run_time <= 114: Yes (14.0)
+|   run_time > 114: No (4.0/1.0)
+genre1 = Family
+|   country = USA
+|   |   IMDB_rating <= 6.8: No (5.0/1.0)
+|   |   IMDB_rating > 6.8: Yes (10.0)
+|   country = UK: Yes (3.0)
+|   country = Germany: Yes (0.0)
+|   country = Austria: Yes (0.0)
+|   country = Australia: Yes (1.0)
+|   country = Japan: Yes (1.0)
+|   country = France: Yes (0.0)
+|   country = Canada: Yes (0.0)
+|   country = Italy: Yes (0.0)
+|   country = Ireland: Yes (0.0)
+|   country = Netherlands: Yes (0.0)
+|   country = Botswana: Yes (0.0)
+|   country = Hong_Kong: Yes (0.0)
+|   country = West_Germany: No (1.0)
+|   country = Belgium: Yes (0.0)
+|   country = New_Zealand: Yes (0.0)
+genre1 = Comedy
+|   genre2 = Family: Yes (0.0)
+|   genre2 = Adventure: No (1.41/0.24)
+|   genre2 = Romance
+|   |   run_time <= 125: Yes (7.88/1.24)
+|   |   run_time > 125: No (2.0)
+|   genre2 = Crime: Yes (0.0)
+|   genre2 = Thriller: Yes (0.0)
+|   genre2 = Action: Yes (5.65/0.71)
+|   genre2 = Sci-Fi: Yes (0.0)
+|   genre2 = Comedy: Yes (0.0)
+|   genre2 = War: Yes (1.41/0.18)
+|   genre2 = Musical: Yes (0.0)
+|   genre2 = Mystery: Yes (0.0)
+|   genre2 = Drama: Yes (0.0)
+|   genre2 = Western: Yes (0.0)
+|   genre2 = Fantasy: Yes (5.65/1.71)
+|   genre2 = Horror: Yes (0.0)
+|   genre2 = Short: Yes (0.0)
+|   genre2 = Film-Noir: Yes (0.0)
+|   genre2 = Documentary: Yes (0.0)
+genre1 = Action
+|   genre2 = Family: Yes (0.0)
+|   genre2 = Adventure
+|   |   director_win_oscar = Yes: Yes (4.0)
+|   |   director_win_oscar = No
+|   |   |   year <= 1995: No (2.0)
+|   |   |   year > 1995: Yes (6.0/1.0)
+|   genre2 = Romance: Yes (0.0)
+|   genre2 = Crime: Yes (1.0)
+|   genre2 = Thriller: No (2.0)
+|   genre2 = Action: Yes (0.0)
+|   genre2 = Sci-Fi: Yes (0.0)
+|   genre2 = Comedy: Yes (0.0)
+|   genre2 = War: Yes (0.0)
+|   genre2 = Musical: Yes (0.0)
+|   genre2 = Mystery: Yes (0.0)
+|   genre2 = Drama: Yes (0.0)
+|   genre2 = Western: Yes (0.0)
+|   genre2 = Fantasy: Yes (0.0)
+|   genre2 = Horror: Yes (0.0)
+|   genre2 = Short: Yes (0.0)
+|   genre2 = Film-Noir: Yes (0.0)
+|   genre2 = Documentary: Yes (0.0)
+genre1 = Drama
+|   genre2 = Family: Yes (0.0)
+|   genre2 = Adventure: Yes (1.28/0.12)
+|   genre2 = Romance
+|   |   year <= 1993: No (9.2/1.32)
+|   |   year > 1993: Yes (4.88/0.44)
+|   genre2 = Crime: Yes (0.0)
+|   genre2 = Thriller: Yes (1.28/0.12)
+|   genre2 = Action: No (2.56/0.32)
+|   genre2 = Sci-Fi: Yes (6.4/1.6)
+|   genre2 = Comedy: Yes (1.28/0.12)
+|   genre2 = War: Yes (1.28/0.12)
+|   genre2 = Musical: Yes (0.0)
+|   genre2 = Mystery: Yes (2.56/1.24)
+|   genre2 = Drama: Yes (0.0)
+|   genre2 = Western: No (1.28/0.16)
+|   genre2 = Fantasy: Yes (0.0)
+|   genre2 = Horror: Yes (0.0)
+|   genre2 = Short: Yes (0.0)
+|   genre2 = Film-Noir: Yes (0.0)
+|   genre2 = Documentary: Yes (0.0)
+genre1 = Romance: Yes (0.0)
+genre1 = Sci-Fi
+|   genre2 = Family: Yes (0.0)
+|   genre2 = Adventure: No (3.0/1.0)
+|   genre2 = Romance: Yes (0.0)
+|   genre2 = Crime: Yes (0.0)
+|   genre2 = Thriller: Yes (0.0)
+|   genre2 = Action: Yes (19.0/3.0)
+|   genre2 = Sci-Fi: Yes (0.0)
+|   genre2 = Comedy: Yes (3.0)
+|   genre2 = War: Yes (0.0)
+|   genre2 = Musical: Yes (0.0)
+|   genre2 = Mystery: No (1.0)
+|   genre2 = Drama: Yes (0.0)
+|   genre2 = Western: Yes (0.0)
+|   genre2 = Fantasy: No (1.0)
+|   genre2 = Horror: Yes (0.0)
+|   genre2 = Short: Yes (0.0)
+|   genre2 = Film-Noir: Yes (0.0)
+|   genre2 = Documentary: Yes (0.0)
+genre1 = Thriller: Yes (4.0/1.0)
+genre1 = Horror
+|   genre2 = Family: No (0.0)
+|   genre2 = Adventure: No (0.0)
+|   genre2 = Romance: Yes (1.64/0.64)
+|   genre2 = Crime: No (0.0)
+|   genre2 = Thriller: No (4.93)
+|   genre2 = Action: Yes (3.29/1.29)
+|   genre2 = Sci-Fi: No (1.64)
+|   genre2 = Comedy
+|   |   run_time <= 102: No (8.5/1.0)
+|   |   run_time > 102: Yes (3.0)
+|   genre2 = War: No (0.0)
+|   genre2 = Musical: No (0.0)
+|   genre2 = Mystery: No (0.0)
+|   genre2 = Drama: No (0.0)
+|   genre2 = Western: No (0.0)
+|   genre2 = Fantasy: No (0.0)
+|   genre2 = Horror: No (0.0)
+|   genre2 = Short: No (0.0)
+|   genre2 = Film-Noir: No (0.0)
+|   genre2 = Documentary: No (0.0)
+genre1 = Documentary: Yes (0.0)
+genre1 = Western: Yes (0.0)
+genre1 = Musical: Yes (2.0)
+genre1 = Film-Noir: Yes (0.0)
+genre1 = Crime: Yes (0.0)
+genre1 = Adventure: No (1.0)
+genre1 = War: Yes (0.0)
+genre1 = Mystery: Yes (0.0)
+
+Number of Leaves  : 	124
+
+Size of the tree : 	138
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         112               67.0659 %
+Incorrectly Classified Instances        55               32.9341 %
+Kappa statistic                          0.2251
+Mean absolute error                      0.372 
+Root mean squared error                  0.5073
+Relative absolute error                 80.6965 %
+Root relative squared error            105.7193 %
+Total Number of Instances              167     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,841    0,633    0,703      0,841    0,766      0,236    0,630     0,720     Yes
+                 0,367    0,159    0,564      0,367    0,444      0,236    0,631     0,481     No
+Weighted Avg.    0,671    0,463    0,653      0,671    0,650      0,236    0,630     0,634     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 90 17 |  a = Yes
+ 38 22 |  b = No
+

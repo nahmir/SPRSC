@@ -1,0 +1,62 @@
+% Cabecalho para usuarios
+
+@relation perfil_user101
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director {'Brian_De_Palma','Stanley_Tong','Paul_Verhoeven','Ridley_Scott','Bryan_Singer','John_McTiernan','James_Cameron','Michael_Mann','Marco_Brambilla','Michael_Bay','Jan_de_Bont','Tony_Scott','Irvin_Kershner','Lana_Wachowski_(as_The_Wachowski_Brothers)','William_Friedkin','Robert_Zemeckis','Andrew_Davis','John_Woo','Roland_Emmerich','Ron_Howard','Wolfgang_Petersen','Roger_Spottiswoode','Phillip_Noyce','Barry_Sonnenfeld','Mel_Gibson','Francis_Ford_Coppola','Steven_Spielberg'}
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand'}
+
+@attribute budget numeric
+
+@attribute lead_actor {'Tom_Cruise','Jackie_Chan','Russell_Crowe','Patrick_Stewart','Sean_Connery','Arnold_Schwarzenegger','Al_Pacino','Sylvester_Stallone','Keanu_Reeves','Will_Smith','Mark_Hamill',,'Ellen_Burstyn','Michael_J._Fox','Harrison_Ford','John_Travolta','Mel_Gibson','Kurt_Russell','Clint_Eastwood','Pierce_Brosnan','Tommy_Lee_Jones','Tom_Hanks','Sam_Neill','Susan_Sarandon'}
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1996,Action,Adventure,110,Brian_De_Palma,No,USA,80000000,Tom_Cruise,No,7.1,No,Yes
+1992,Action,Thriller,95,Stanley_Tong,No,Hong_Kong,900000,Jackie_Chan,No,6.9,No,Yes
+1990,Sci-Fi,Action,113,Paul_Verhoeven,No,USA,65000000,Arnold_Schwarzenegger,No,7.5,No,Yes
+2000,Drama,Action,155,Ridley_Scott,No,USA,103000000,Russell_Crowe,Yes,8.5,Yes,No
+2000,Sci-Fi,Action,104,Bryan_Singer,No,USA,75000000,Patrick_Stewart,No,7.4,No,No
+1990,Action,Thriller,135,John_McTiernan,No,USA,30000000,Sean_Connery,Yes,7.6,Yes,Yes
+1991,Sci-Fi,Action,137,James_Cameron,Yes,USA,102000000,Arnold_Schwarzenegger,No,8.5,Yes,Yes
+1995,Action,Crime,170,Michael_Mann,No,USA,60000000,Al_Pacino,Yes,8.2,No,Yes
+1993,Sci-Fi,Action,115,Marco_Brambilla,No,USA,57000000,Sylvester_Stallone,No,6.6,No,Yes
+1996,Action,Adventure,136,Michael_Bay,No,USA,75000000,Sean_Connery,Yes,7.4,No,Yes
+1994,Action,Romance,116,Jan_de_Bont,No,USA,30000000,Keanu_Reeves,No,7.2,Yes,No
+1998,Action,Thriller,132,Tony_Scott,No,USA,90000000,Will_Smith,No,7.3,No,Yes
+1980,Drama,Sci-Fi,124,Irvin_Kershner,No,USA,18000000,Mark_Hamill,No,8.8,Yes,Yes
+1999,Sci-Fi,Action,136,Lana_Wachowski_(as_The_Wachowski_Brothers),No,USA,63000000,Keanu_Reeves,No,8.7,Yes,Yes
+1994,Comedy,Romance,141,James_Cameron,Yes,USA,115000000,Arnold_Schwarzenegger,No,7.2,No,Yes
+1973,Horror,?,122,William_Friedkin,Yes,USA,12000000,Ellen_Burstyn,Yes,8.0,Yes,Yes
+1985,Sci-Fi,Comedy,116,Robert_Zemeckis,Yes,USA,19000000,Michael_J._Fox,No,8.5,Yes,Yes
+1993,Action,Thriller,130,Andrew_Davis,No,USA,44000000,Harrison_Ford,No,7.8,Yes,Yes
+1997,Sci-Fi,Action,138,John_Woo,No,USA,80000000,John_Travolta,No,7.3,No,Yes
+2000,Drama,War,165,Roland_Emmerich,No,USA,110000000,Mel_Gibson,No,7.1,No,Yes
+1991,Drama,Action,137,Ron_Howard,Yes,USA,75000000,Kurt_Russell,No,6.7,No,No
+1993,Action,Thriller,128,Wolfgang_Petersen,No,USA,40000000,Clint_Eastwood,No,7.2,No,Yes
+1997,Action,Romance,119,Roger_Spottiswoode,No,UK,110000000,Pierce_Brosnan,No,6.5,No,Yes
+1992,Action,Thriller,117,Phillip_Noyce,No,USA,45000000,Harrison_Ford,No,6.9,No,Yes
+1997,Sci-Fi,Action,98,Barry_Sonnenfeld,No,USA,90000000,Tommy_Lee_Jones,Yes,7.3,Yes,Yes
+1995,Drama,War,178,Mel_Gibson,Yes,USA,72000000,Mel_Gibson,No,8.4,Yes,Yes
+1974,Drama,Action,202,Francis_Ford_Coppola,Yes,USA,13000000,Al_Pacino,Yes,9.0,Yes,Yes
+1998,Drama,War,169,Steven_Spielberg,Yes,USA,70000000,Tom_Hanks,Yes,8.6,Yes,Yes
+1993,Sci-Fi,Action,127,Steven_Spielberg,Yes,USA,63000000,Sam_Neill,No,8.1,Yes,Yes
+1994,Action,Adventure,141,Phillip_Noyce,No,USA,62000000,Harrison_Ford,No,6.9,No,Yes
+1991,Drama,Action,130,Ridley_Scott,No,USA,16500000,Susan_Sarandon,Yes,7.4,Yes,No

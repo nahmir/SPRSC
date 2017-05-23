@@ -1,0 +1,58 @@
+% Cabecalho para usuarios
+
+@relation perfil_user101
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand'}
+
+@attribute budget numeric
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1996,Action,Adventure,110,No,USA,80000000,No,7.1,No,Yes
+1992,Action,Thriller,95,No,Hong Kong,900000,No,6.9,No,Yes
+1990,Sci-Fi,Action,113,No,USA,65000000,No,7.5,No,Yes
+2000,Drama,Action,155,No,USA,103000000,Yes,8.5,Yes,No
+2000,Sci-Fi,Action,104,No,USA,75000000,No,7.4,No,No
+1990,Action,Thriller,135,No,USA,30000000,Yes,7.6,Yes,Yes
+1991,Sci-Fi,Action,137,Yes,USA,102000000,No,8.5,Yes,Yes
+1995,Action,Crime,170,No,USA,60000000,Yes,8.2,No,Yes
+1993,Sci-Fi,Action,115,No,USA,57000000,No,6.6,No,Yes
+1996,Action,Adventure,136,No,USA,75000000,Yes,7.4,No,Yes
+1994,Action,Romance,116,No,USA,30000000,No,7.2,Yes,No
+1998,Action,Thriller,132,No,USA,90000000,No,7.3,No,Yes
+1980,Drama,Sci-Fi,124,No,USA,18000000,No,8.8,Yes,Yes
+1999,Sci-Fi,Action,136,No,USA,63000000,No,8.7,Yes,Yes
+1994,Comedy,Romance,141,Yes,USA,115000000,No,7.2,No,Yes
+1973,Horror,?,122,Yes,USA,12000000,Yes,8.0,Yes,Yes
+1985,Sci-Fi,Comedy,116,Yes,USA,19000000,No,8.5,Yes,Yes
+1993,Action,Thriller,130,No,USA,44000000,No,7.8,Yes,Yes
+1997,Sci-Fi,Action,138,No,USA,80000000,No,7.3,No,Yes
+2000,Drama,War,165,No,USA,110000000,No,7.1,No,Yes
+1991,Drama,Action,137,Yes,USA,75000000,No,6.7,No,No
+1993,Action,Thriller,128,No,USA,40000000,No,7.2,No,Yes
+1997,Action,Romance,119,No,UK,110000000,No,6.5,No,Yes
+1992,Action,Thriller,117,No,USA,45000000,No,6.9,No,Yes
+1997,Sci-Fi,Action,98,No,USA,90000000,Yes,7.3,Yes,Yes
+1995,Drama,War,178,Yes,USA,72000000,No,8.4,Yes,Yes
+1974,Drama,Action,202,Yes,USA,13000000,Yes,9.0,Yes,Yes
+1998,Drama,War,169,Yes,USA,70000000,Yes,8.6,Yes,Yes
+1993,Sci-Fi,Action,127,Yes,USA,63000000,No,8.1,Yes,Yes
+1994,Action,Adventure,141,No,USA,62000000,No,6.9,No,Yes
+1991,Drama,Action,130,No,USA,16500000,Yes,7.4,Yes,No

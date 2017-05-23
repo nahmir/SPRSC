@@ -1,0 +1,79 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -U -M 2
+Relation:     perfil_user101
+Instances:    10
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+movie_win_oscar = Yes: Yes (2.0)
+movie_win_oscar = No
+|   genre1 = Animation: No (0.0)
+|   genre1 = Family: No (0.0)
+|   genre1 = Comedy: No (1.0)
+|   genre1 = Action: Yes (2.0)
+|   genre1 = Drama: No (0.0)
+|   genre1 = Romance: No (1.0)
+|   genre1 = Sci-Fi: No (3.0/1.0)
+|   genre1 = Thriller: No (0.0)
+|   genre1 = Horror: No (1.0)
+|   genre1 = Documentary: No (0.0)
+|   genre1 = Western: No (0.0)
+|   genre1 = Musical: No (0.0)
+|   genre1 = Film-Noir: No (0.0)
+|   genre1 = Crime: No (0.0)
+|   genre1 = Adventure: No (0.0)
+|   genre1 = War: No (0.0)
+|   genre1 = Mystery: No (0.0)
+
+Number of Leaves  : 	18
+
+Size of the tree : 	20
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances           9               90      %
+Incorrectly Classified Instances         1               10      %
+Kappa statistic                          0.8   
+Mean absolute error                      0.1333
+Root mean squared error                  0.2582
+Relative absolute error                 26.6667 %
+Root relative squared error             51.6398 %
+Total Number of Instances               10     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,800    0,000    1,000      0,800    0,889      0,816    0,960     0,943     Yes
+                 1,000    0,200    0,833      1,000    0,909      0,816    0,960     0,933     No
+Weighted Avg.    0,900    0,100    0,917      0,900    0,899      0,816    0,960     0,938     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 4 1 | a = Yes
+ 0 5 | b = No
+

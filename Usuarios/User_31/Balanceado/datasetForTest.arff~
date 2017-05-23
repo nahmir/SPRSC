@@ -1,0 +1,52 @@
+% Cabecalho para usuarios
+
+@relation perfil_user24
+
+@attribute year numeric
+
+@attribute genre1 {'Animation','Family','Comedy','Action','Drama','Romance','Sci-Fi','Thriller','Horror','Documentary','Western','Musical','Film-Noir','Crime','Adventure','War','Mystery'}
+
+@attribute genre2 {'Family','Adventure','Romance','Crime','Thriller','Action','Sci-Fi','Comedy','War','Musical','Mystery','Drama','Western','Fantasy','Horror','Short','Film-Noir','Documentary'}
+
+@attribute run_time numeric
+
+@attribute director_win_oscar {'Yes','No'}
+
+@attribute country {'USA','UK','Germany','Austria','Australia','Japan','France','Canada','Italy','Ireland','Netherlands','Botswana', 'Hong_Kong','West_Germany','Belgium','New_Zealand','China','Mexico','Spain','Brazil','Denmark','Russia','Iran','Czech_Republic','Cuba','Soviet_Union','Sweden'}
+
+@attribute budget numeric
+
+@attribute lead_actor_win_oscar {'Yes','No'}
+
+@attribute IMDB_rating real
+
+@attribute movie_win_oscar {'Yes','No'}
+
+@attribute class {'Yes','No'}
+
+@data
+1963,Action,?,115,No,UK,2000000,Yes,7.5,No,No
+1974,Comedy,?,91,No,UK,?,No,8.3,No,No
+1977,Comedy,Romance,111,No,USA,?,Yes,7.4,Yes,No
+1985,Drama,Romance,130,Yes,USA,?,Yes,6.8,Yes,No
+1973,Sci-Fi,Comedy,89,Yes,USA,2000000,No,7.3,No,No
+2000,Comedy,?,95,No,USA,6000000,No,7.0,No,No
+1970,Comedy,Action,144,No,USA,4000000,No,7.7,No,No
+1977,Comedy,Romance,93,Yes,USA,4000000,No,8.1,Yes,No
+1971,Comedy,?,91,No,USA,1200000,Yes,8.0,No,No
+1947,Comedy,?,96,No,USA,?,No,7.1,No,No
+1983,Comedy,?,93,No,USA,?,No,6.4,No,No
+1954,Musical,?,120,Yes,USA,?,Yes,7.6,No,Yes
+1940,Comedy,Romance,112,Yes,USA,?,No,8.0,Yes,Yes
+1985,Comedy,?,98,No,USA,8000000,No,6.9,No,Yes
+1992,Comedy,Crime,100,No,USA,31000000,Yes,6.3,No,Yes
+1983,Sci-Fi,Action,131,No,USA,32500000,No,8.4,No,Yes
+1971,Family,Adventure,100,No,USA,3000000,No,7.8,No,Yes
+1997,Sci-Fi,Action,98,No,USA,90000000,Yes,7.3,Yes,Yes
+1985,Comedy,?,92,No,USA,9000000,No,4.7,No,Yes
+1993,Sci-Fi,Action,127,Yes,USA,63000000,No,8.1,Yes,Yes
+1981,Comedy,?,106,No,USA,10000000,No,6.9,No,Yes
+1969,Comedy,Action,110,Yes,USA,6000000,Yes,8.1,Yes,Yes
+1989,Comedy,Romance,96,No,USA,16000000,No,7.6,No,Yes
+1973,Comedy,Crime,129,Yes,USA,5500000,Yes,8.3,Yes,Yes
+1950,Comedy,?,103,Yes,USA,?,Yes,7.6,Yes,Yes
