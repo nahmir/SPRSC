@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -U -M 2
+Relation:     perfil_user16
+Instances:    20
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+IMDB_rating <= 5.8: No (9.0/1.0)
+IMDB_rating > 5.8: Yes (11.0/2.0)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances           5               83.3333 %
+Incorrectly Classified Instances         1               16.6667 %
+Kappa statistic                          0.6667
+Mean absolute error                      0.2643
+Root mean squared error                  0.3636
+Relative absolute error                 52.862  %
+Root relative squared error             72.7226 %
+Total Number of Instances                6     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,333    0,750      1,000    0,857      0,707    0,833     0,750     Yes
+                 0,667    0,000    1,000      0,667    0,800      0,707    0,833     0,833     No
+Weighted Avg.    0,833    0,167    0,875      0,833    0,829      0,707    0,833     0,792     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 3 0 | a = Yes
+ 1 2 | b = No
+

@@ -1,0 +1,74 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     perfil_user137
+Instances:    20
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+genre1 = Animation: Yes (5.0)
+genre1 = Family: Yes (0.0)
+genre1 = Comedy: No (6.0/1.0)
+genre1 = Action: Yes (0.0)
+genre1 = Drama: No (3.0/1.0)
+genre1 = Romance: Yes (0.0)
+genre1 = Sci-Fi: Yes (3.0/1.0)
+genre1 = Thriller: No (1.0)
+genre1 = Horror: Yes (2.0/1.0)
+genre1 = Documentary: Yes (0.0)
+genre1 = Western: Yes (0.0)
+genre1 = Musical: Yes (0.0)
+genre1 = Film-Noir: Yes (0.0)
+genre1 = Crime: Yes (0.0)
+genre1 = Adventure: Yes (0.0)
+genre1 = War: Yes (0.0)
+genre1 = Mystery: Yes (0.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	18
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          12               60      %
+Incorrectly Classified Instances         8               40      %
+Kappa statistic                          0.2   
+Mean absolute error                      0.415 
+Root mean squared error                  0.5661
+Relative absolute error                 83      %
+Root relative squared error            113.2254 %
+Total Number of Instances               20     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,700    0,500    0,583      0,700    0,636      0,204    0,595     0,624     Yes
+                 0,500    0,300    0,625      0,500    0,556      0,204    0,595     0,560     No
+Weighted Avg.    0,600    0,400    0,604      0,600    0,596      0,204    0,595     0,592     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 7 3 | a = Yes
+ 5 5 | b = No
+

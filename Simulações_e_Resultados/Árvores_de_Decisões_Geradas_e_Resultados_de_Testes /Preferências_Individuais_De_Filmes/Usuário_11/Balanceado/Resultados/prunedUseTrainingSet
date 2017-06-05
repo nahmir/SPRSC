@@ -1,0 +1,78 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     perfil_user101
+Instances:    100
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+country = USA
+|   IMDB_rating <= 6.8: No (27.0/6.0)
+|   IMDB_rating > 6.8: Yes (61.0/21.0)
+country = UK: No (8.0/1.0)
+country = Germany: Yes (0.0)
+country = Austria: Yes (0.0)
+country = Australia: Yes (3.0/1.0)
+country = Japan: Yes (0.0)
+country = France: Yes (0.0)
+country = Canada: Yes (1.0)
+country = Italy: Yes (0.0)
+country = Ireland: Yes (0.0)
+country = Netherlands: Yes (0.0)
+country = Botswana: Yes (0.0)
+country = Hong_Kong: Yes (0.0)
+country = West_Germany: Yes (0.0)
+country = Belgium: Yes (0.0)
+country = New_Zealand: Yes (0.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	19
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          71               71      %
+Incorrectly Classified Instances        29               29      %
+Kappa statistic                          0.42  
+Mean absolute error                      0.3996
+Root mean squared error                  0.447 
+Relative absolute error                 79.9153 %
+Root relative squared error             89.3954 %
+Total Number of Instances              100     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,860    0,440    0,662      0,860    0,748      0,440    0,719     0,653     Yes
+                 0,560    0,140    0,800      0,560    0,659      0,440    0,719     0,683     No
+Weighted Avg.    0,710    0,290    0,731      0,710    0,703      0,440    0,719     0,668     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 43  7 |  a = Yes
+ 22 28 |  b = No
+

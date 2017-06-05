@@ -1,0 +1,105 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.trees.J48 -- -U -M 2
+Relation:     100_instancias-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    100
+Attributes:   8
+              sensorSemana
+              sensorCompanhia
+              sensorSofa
+              sensorHorario
+              sensorLuminosidade
+              sensorTemperatura
+              sensorTelevisao
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+J48 unpruned tree
+------------------
+
+sensorTelevisao = ligada
+|   sensorTemperatura = fria
+|   |   sensorSemana = final_de_semana
+|   |   |   sensorHorario = manha: Sim (2.0)
+|   |   |   sensorHorario = tarde: Sim (2.0/1.0)
+|   |   |   sensorHorario = noite: Sim (2.0/1.0)
+|   |   |   sensorHorario = madrugada: Nao (1.0)
+|   |   sensorSemana = dia_da_semana: Nao (8.0/1.0)
+|   sensorTemperatura = moderada
+|   |   sensorLuminosidade = iluminada: Sim (7.0)
+|   |   sensorLuminosidade = escura
+|   |   |   sensorHorario = manha
+|   |   |   |   sensorSemana = final_de_semana: Sim (3.0/1.0)
+|   |   |   |   sensorSemana = dia_da_semana: Nao (2.0)
+|   |   |   sensorHorario = tarde: Sim (3.0)
+|   |   |   sensorHorario = noite: Sim (3.0)
+|   |   |   sensorHorario = madrugada: Sim (2.0/1.0)
+|   sensorTemperatura = quente
+|   |   sensorSemana = final_de_semana: Nao (5.0)
+|   |   sensorSemana = dia_da_semana
+|   |   |   sensorSofa = sentado: Sim (6.0/2.0)
+|   |   |   sensorSofa = nao_esta_sentado: Nao (5.0/1.0)
+sensorTelevisao = desligada
+|   sensorSemana = final_de_semana
+|   |   sensorHorario = manha
+|   |   |   sensorSofa = sentado: Sim (3.0/1.0)
+|   |   |   sensorSofa = nao_esta_sentado: Nao (6.0/2.0)
+|   |   sensorHorario = tarde: Nao (4.0)
+|   |   sensorHorario = noite
+|   |   |   sensorLuminosidade = iluminada: Nao (5.0/1.0)
+|   |   |   sensorLuminosidade = escura: Sim (2.0)
+|   |   sensorHorario = madrugada: Nao (7.0/2.0)
+|   sensorSemana = dia_da_semana: Nao (22.0/4.0)
+
+Number of Leaves  : 	21
+
+Size of the tree : 	34
+
+Attribute mappings:
+
+Model attributes              	    Incoming attributes
+------------------------------	    ----------------
+(nominal) sensorSemana        	--> 2 (nominal) sensorSemana
+(nominal) sensorCompanhia     	--> 3 (nominal) sensorCompanhia
+(nominal) sensorSofa          	--> 4 (nominal) sensorSofa
+(nominal) sensorHorario       	--> 5 (nominal) sensorHorario
+(nominal) sensorLuminosidade  	--> 6 (nominal) sensorLuminosidade
+(nominal) sensorTemperatura   	--> 7 (nominal) sensorTemperatura
+(nominal) sensorTelevisao     	--> 8 (nominal) sensorTelevisao
+(nominal) classe              	--> 9 (nominal) classe
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          49               65.3333 %
+Incorrectly Classified Instances        26               34.6667 %
+Kappa statistic                          0.2591
+Mean absolute error                      0.4123
+Root mean squared error                  0.5529
+Relative absolute error                 87.2215 %
+Root relative squared error            114.2305 %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,536    0,277    0,536      0,536    0,536      0,259    0,562     0,459     Sim
+                 0,723    0,464    0,723      0,723    0,723      0,259    0,562     0,638     Nao
+Weighted Avg.    0,653    0,394    0,653      0,653    0,653      0,259    0,562     0,571     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 15 13 |  a = Sim
+ 13 34 |  b = Nao
+

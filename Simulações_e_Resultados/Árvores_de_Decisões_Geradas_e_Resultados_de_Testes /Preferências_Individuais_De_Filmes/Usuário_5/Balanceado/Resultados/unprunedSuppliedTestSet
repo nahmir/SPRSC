@@ -1,0 +1,165 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -U -M 2
+Relation:     perfil_user138
+Instances:    140
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+country = USA
+|   genre1 = Animation: Yes (3.0)
+|   genre1 = Family: Yes (2.0)
+|   genre1 = Comedy
+|   |   IMDB_rating <= 7.2
+|   |   |   year <= 1996: No (2.0)
+|   |   |   year > 1996
+|   |   |   |   budget <= 50000000
+|   |   |   |   |   run_time <= 95: Yes (3.33/1.0)
+|   |   |   |   |   run_time > 95: No (2.0)
+|   |   |   |   budget > 50000000: Yes (2.67)
+|   |   IMDB_rating > 7.2: Yes (8.0)
+|   genre1 = Action
+|   |   budget <= 30000000: Yes (4.0/1.0)
+|   |   budget > 30000000: No (5.0)
+|   genre1 = Drama
+|   |   genre2 = Family: No (0.0)
+|   |   genre2 = Adventure: No (0.0)
+|   |   genre2 = Romance
+|   |   |   run_time <= 104: No (4.52)
+|   |   |   run_time > 104
+|   |   |   |   run_time <= 110: Yes (3.52)
+|   |   |   |   run_time > 110: No (2.59/0.78)
+|   |   genre2 = Crime
+|   |   |   budget <= 30000000: Yes (4.84/1.09)
+|   |   |   budget > 30000000: No (2.76/0.19)
+|   |   genre2 = Thriller
+|   |   |   movie_win_oscar = Yes: Yes (2.93/0.74)
+|   |   |   movie_win_oscar = No: No (4.67/1.74)
+|   |   genre2 = Action: No (3.04/0.37)
+|   |   genre2 = Sci-Fi: No (0.0)
+|   |   genre2 = Comedy: Yes (7.59/2.67)
+|   |   genre2 = War: Yes (3.04/0.67)
+|   |   genre2 = Musical: No (0.0)
+|   |   genre2 = Mystery: No (1.52/0.19)
+|   |   genre2 = Drama: No (0.0)
+|   |   genre2 = Western: No (0.0)
+|   |   genre2 = Fantasy: No (0.0)
+|   |   genre2 = Horror: No (0.0)
+|   |   genre2 = Short: No (0.0)
+|   |   genre2 = Film-Noir: No (0.0)
+|   |   genre2 = Documentary: No (0.0)
+|   genre1 = Romance: No (1.0)
+|   genre1 = Sci-Fi
+|   |   movie_win_oscar = Yes: Yes (3.0/1.0)
+|   |   movie_win_oscar = No: No (4.0/1.0)
+|   genre1 = Thriller
+|   |   run_time <= 100: Yes (2.0)
+|   |   run_time > 100: No (6.0/1.0)
+|   genre1 = Horror: No (7.0/1.0)
+|   genre1 = Documentary: Yes (4.0/1.0)
+|   genre1 = Western: Yes (0.0)
+|   genre1 = Musical: Yes (0.0)
+|   genre1 = Film-Noir: Yes (1.0)
+|   genre1 = Crime: Yes (1.0)
+|   genre1 = Adventure: Yes (0.0)
+|   genre1 = War: Yes (0.0)
+|   genre1 = Mystery: Yes (0.0)
+country = UK
+|   movie_win_oscar = Yes: Yes (3.0)
+|   movie_win_oscar = No
+|   |   genre1 = Animation: No (0.0)
+|   |   genre1 = Family: No (0.0)
+|   |   genre1 = Comedy: Yes (3.0/1.0)
+|   |   genre1 = Action: No (0.0)
+|   |   genre1 = Drama
+|   |   |   run_time <= 97: Yes (2.0)
+|   |   |   run_time > 97: No (8.0/2.0)
+|   |   genre1 = Romance: No (1.0)
+|   |   genre1 = Sci-Fi: No (0.0)
+|   |   genre1 = Thriller: No (0.0)
+|   |   genre1 = Horror: No (0.0)
+|   |   genre1 = Documentary: No (0.0)
+|   |   genre1 = Western: No (0.0)
+|   |   genre1 = Musical: No (0.0)
+|   |   genre1 = Film-Noir: No (0.0)
+|   |   genre1 = Crime: No (0.0)
+|   |   genre1 = Adventure: No (0.0)
+|   |   genre1 = War: No (0.0)
+|   |   genre1 = Mystery: No (0.0)
+country = Germany: No (3.0)
+country = Austria: Yes (0.0)
+country = Australia: Yes (0.0)
+country = Japan: No (1.0)
+country = France
+|   IMDB_rating <= 7.7: Yes (4.0/1.0)
+|   IMDB_rating > 7.7: No (3.0)
+country = Canada: No (2.0)
+country = Italy: Yes (0.0)
+country = Ireland: Yes (0.0)
+country = Netherlands: No (1.0)
+country = Botswana: Yes (0.0)
+country = Hong_Kong: No (1.0)
+country = West_Germany: Yes (0.0)
+country = Belgium: Yes (1.0)
+country = New_Zealand: Yes (1.0)
+country = China: Yes (0.0)
+country = Mexico: Yes (0.0)
+country = Spain: Yes (1.0)
+country = Brazil: Yes (1.0)
+country = Denmark: Yes (0.0)
+country = Russia: Yes (0.0)
+country = Iran: Yes (0.0)
+country = Czech_Republic: Yes (1.0)
+country = Cuba: No (1.0)
+
+Number of Leaves  : 	88
+
+Size of the tree : 	106
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          10               41.6667 %
+Incorrectly Classified Instances        14               58.3333 %
+Kappa statistic                         -0.1667
+Mean absolute error                      0.5948
+Root mean squared error                  0.6614
+Relative absolute error                118.9533 %
+Root relative squared error            132.2774 %
+Total Number of Instances               24     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,500    0,667    0,429      0,500    0,462      -0,169   0,316     0,423     Yes
+                 0,333    0,500    0,400      0,333    0,364      -0,169   0,316     0,444     No
+Weighted Avg.    0,417    0,583    0,414      0,417    0,413      -0,169   0,316     0,434     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 6 6 | a = Yes
+ 8 4 | b = No
+

@@ -1,0 +1,147 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -U -M 2
+Relation:     perfil_user24
+Instances:    60
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+IMDB_rating <= 7.7
+|   genre2 = Family: No (0.0)
+|   genre2 = Adventure: No (1.54/0.14)
+|   genre2 = Romance: No (3.07/1.29)
+|   genre2 = Crime: No (4.61/1.43)
+|   genre2 = Thriller
+|   |   country = USA
+|   |   |   genre1 = Animation: No (0.0)
+|   |   |   genre1 = Family: No (0.0)
+|   |   |   genre1 = Comedy: No (0.39)
+|   |   |   genre1 = Action: No (1.39/0.39)
+|   |   |   genre1 = Drama: No (3.36/1.39)
+|   |   |   genre1 = Romance: No (0.0)
+|   |   |   genre1 = Sci-Fi
+|   |   |   |   lead_actor_win_oscar = Yes: No (2.39)
+|   |   |   |   lead_actor_win_oscar = No
+|   |   |   |   |   run_time <= 99: Yes (2.18/0.79)
+|   |   |   |   |   run_time > 99: No (2.0)
+|   |   |   genre1 = Thriller: Yes (0.79/0.39)
+|   |   |   genre1 = Horror: No (1.0)
+|   |   |   genre1 = Documentary: No (0.0)
+|   |   |   genre1 = Western: No (0.0)
+|   |   |   genre1 = Musical: No (0.0)
+|   |   |   genre1 = Film-Noir: No (0.0)
+|   |   |   genre1 = Crime: No (0.0)
+|   |   |   genre1 = Adventure: No (0.0)
+|   |   |   genre1 = War: No (0.0)
+|   |   |   genre1 = Mystery: No (0.0)
+|   |   country = UK: Yes (2.0/1.0)
+|   |   country = Germany: No (1.0)
+|   |   country = Austria: No (0.0)
+|   |   country = Australia: No (0.39)
+|   |   country = Japan: No (0.0)
+|   |   country = France: No (0.0)
+|   |   country = Canada: No (0.0)
+|   |   country = Italy: No (0.0)
+|   |   country = Ireland: No (0.0)
+|   |   country = Netherlands: No (0.0)
+|   |   country = Botswana: No (0.0)
+|   |   country = Hong_Kong: No (0.0)
+|   |   country = West_Germany: No (0.0)
+|   |   country = Belgium: No (0.0)
+|   |   country = New_Zealand: No (0.0)
+|   |   country = China: No (0.0)
+|   |   country = Mexico: No (0.0)
+|   |   country = Spain: No (0.0)
+|   |   country = Brazil: No (0.0)
+|   |   country = Denmark: No (0.0)
+|   |   country = Russia: No (0.0)
+|   |   country = Iran: No (0.0)
+|   |   country = Czech_Republic: No (0.0)
+|   |   country = Cuba: No (0.0)
+|   |   country = Soviet_Union: No (0.0)
+|   |   country = Sweden: No (0.0)
+|   genre2 = Action
+|   |   budget <= 40000000: No (5.15/0.48)
+|   |   budget > 40000000: Yes (2.53/0.29)
+|   genre2 = Sci-Fi
+|   |   genre1 = Animation: No (0.0)
+|   |   genre1 = Family: No (0.0)
+|   |   genre1 = Comedy: No (0.14)
+|   |   genre1 = Action: Yes (0.14)
+|   |   genre1 = Drama: No (3.0/0.14)
+|   |   genre1 = Romance: No (0.0)
+|   |   genre1 = Sci-Fi: No (0.57/0.14)
+|   |   genre1 = Thriller: Yes (0.29/0.14)
+|   |   genre1 = Horror: No (2.0)
+|   |   genre1 = Documentary: No (0.0)
+|   |   genre1 = Western: No (0.0)
+|   |   genre1 = Musical: No (0.0)
+|   |   genre1 = Film-Noir: No (0.0)
+|   |   genre1 = Crime: No (0.0)
+|   |   genre1 = Adventure: No (0.0)
+|   |   genre1 = War: No (0.0)
+|   |   genre1 = Mystery: No (0.0)
+|   genre2 = Comedy: No (0.0)
+|   genre2 = War: No (0.0)
+|   genre2 = Musical: No (0.0)
+|   genre2 = Mystery: Yes (1.54/0.39)
+|   genre2 = Drama: No (0.0)
+|   genre2 = Western: No (0.0)
+|   genre2 = Fantasy: Yes (1.54/0.39)
+|   genre2 = Horror: No (0.0)
+|   genre2 = Short: No (0.0)
+|   genre2 = Film-Noir: No (0.0)
+|   genre2 = Documentary: No (0.0)
+IMDB_rating > 7.7: Yes (17.0)
+
+Number of Leaves  : 	80
+
+Size of the tree : 	88
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          53               88.3333 %
+Incorrectly Classified Instances         7               11.6667 %
+Kappa statistic                          0.7667
+Mean absolute error                      0.1917
+Root mean squared error                  0.2876
+Relative absolute error                 38.3376 %
+Root relative squared error             57.5195 %
+Total Number of Instances               60     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,800    0,033    0,960      0,800    0,873      0,778    0,964     0,965     Yes
+                 0,967    0,200    0,829      0,967    0,892      0,778    0,964     0,959     No
+Weighted Avg.    0,883    0,117    0,894      0,883    0,883      0,778    0,964     0,962     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 24  6 |  a = Yes
+  1 29 |  b = No
+

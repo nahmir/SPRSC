@@ -1,0 +1,85 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.trees.J48 -- -U -M 2
+Relation:     30_instancias-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    30
+Attributes:   8
+              sensorSemana
+              sensorCompanhia
+              sensorSofa
+              sensorHorario
+              sensorLuminosidade
+              sensorTemperatura
+              sensorTelevisao
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+J48 unpruned tree
+------------------
+
+sensorSofa = sentado
+|   sensorCompanhia = sozinho: Sim (8.0/1.0)
+|   sensorCompanhia = acompanhado
+|   |   sensorTemperatura = fria: Nao (2.0)
+|   |   sensorTemperatura = moderada: Nao (2.0)
+|   |   sensorTemperatura = quente: Sim (1.0)
+sensorSofa = nao_esta_sentado
+|   sensorCompanhia = sozinho: Nao (9.0)
+|   sensorCompanhia = acompanhado
+|   |   sensorLuminosidade = iluminada
+|   |   |   sensorSemana = final_de_semana: Sim (2.0)
+|   |   |   sensorSemana = dia_da_semana: Nao (3.0/1.0)
+|   |   sensorLuminosidade = escura: Nao (3.0)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	14
+
+Attribute mappings:
+
+Model attributes              	    Incoming attributes
+------------------------------	    ----------------
+(nominal) sensorSemana        	--> 2 (nominal) sensorSemana
+(nominal) sensorCompanhia     	--> 3 (nominal) sensorCompanhia
+(nominal) sensorSofa          	--> 4 (nominal) sensorSofa
+(nominal) sensorHorario       	--> 5 (nominal) sensorHorario
+(nominal) sensorLuminosidade  	--> 6 (nominal) sensorLuminosidade
+(nominal) sensorTemperatura   	--> 7 (nominal) sensorTemperatura
+(nominal) sensorTelevisao     	--> 8 (nominal) sensorTelevisao
+(nominal) classe              	--> 9 (nominal) classe
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          45               60      %
+Incorrectly Classified Instances        30               40      %
+Kappa statistic                          0.1326
+Mean absolute error                      0.4111
+Root mean squared error                  0.6082
+Relative absolute error                 87.7817 %
+Root relative squared error            125.749  %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,429    0,298    0,462      0,429    0,444      0,133    0,554     0,397     Sim
+                 0,702    0,571    0,673      0,702    0,688      0,133    0,554     0,668     Nao
+Weighted Avg.    0,600    0,469    0,594      0,600    0,597      0,133    0,554     0,567     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 12 16 |  a = Sim
+ 14 33 |  b = Nao
+

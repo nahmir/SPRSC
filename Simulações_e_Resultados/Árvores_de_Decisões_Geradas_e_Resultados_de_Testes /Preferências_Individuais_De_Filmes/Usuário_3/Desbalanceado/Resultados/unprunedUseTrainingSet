@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -U -M 2
+Relation:     perfil_user3
+Instances:    39
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+genre2 = Adventure: Yes (10.4/0.8)
+genre2 = Action: Yes (13.0/2.0)
+genre2 = Comedy: Yes (5.2/2.4)
+genre2 = Family: Yes (2.6/1.2)
+genre2 = Romance: Yes (2.6/1.2)
+genre2 = Sci-Fi: Yes (1.3/0.1)
+genre2 = Western: Yes (1.3/0.1)
+genre2 = Thriller: No (2.6/0.4)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	9
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          31               79.4872 %
+Incorrectly Classified Instances         8               20.5128 %
+Kappa statistic                          0.271 
+Mean absolute error                      0.284 
+Root mean squared error                  0.3616
+Relative absolute error                 73.369  %
+Root relative squared error             82.7909 %
+Total Number of Instances               39     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,800    0,784      1,000    0,879      0,396    0,850     0,928     Yes
+                 0,200    0,000    1,000      0,200    0,333      0,396    0,850     0,624     No
+Weighted Avg.    0,795    0,595    0,839      0,795    0,739      0,396    0,850     0,850     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 29  0 |  a = Yes
+  8  2 |  b = No
+

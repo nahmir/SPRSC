@@ -1,0 +1,192 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.trees.J48 -- -U -M 2
+Relation:     400_instancias-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    400
+Attributes:   8
+              sensorSemana
+              sensorCompanhia
+              sensorSofa
+              sensorHorario
+              sensorLuminosidade
+              sensorTemperatura
+              sensorTelevisao
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+J48 unpruned tree
+------------------
+
+sensorSofa = sentado
+|   sensorTelevisao = ligada
+|   |   sensorLuminosidade = iluminada
+|   |   |   sensorHorario = manha
+|   |   |   |   sensorSemana = final_de_semana: Sim (5.0/1.0)
+|   |   |   |   sensorSemana = dia_da_semana: Nao (8.0/1.0)
+|   |   |   sensorHorario = tarde: Sim (11.0/3.0)
+|   |   |   sensorHorario = noite
+|   |   |   |   sensorCompanhia = sozinho: Sim (6.0)
+|   |   |   |   sensorCompanhia = acompanhado: Nao (3.0/1.0)
+|   |   |   sensorHorario = madrugada
+|   |   |   |   sensorCompanhia = sozinho: Nao (3.0)
+|   |   |   |   sensorCompanhia = acompanhado: Sim (3.0/1.0)
+|   |   sensorLuminosidade = escura
+|   |   |   sensorSemana = final_de_semana: Sim (21.0/7.0)
+|   |   |   sensorSemana = dia_da_semana
+|   |   |   |   sensorHorario = manha: Sim (7.0/1.0)
+|   |   |   |   sensorHorario = tarde
+|   |   |   |   |   sensorTemperatura = fria: Nao (1.0)
+|   |   |   |   |   sensorTemperatura = moderada: Sim (5.0/1.0)
+|   |   |   |   |   sensorTemperatura = quente: Sim (3.0/1.0)
+|   |   |   |   sensorHorario = noite: Sim (5.0)
+|   |   |   |   sensorHorario = madrugada: Sim (2.0)
+|   sensorTelevisao = desligada
+|   |   sensorHorario = manha
+|   |   |   sensorLuminosidade = iluminada
+|   |   |   |   sensorSemana = final_de_semana: Sim (3.0)
+|   |   |   |   sensorSemana = dia_da_semana
+|   |   |   |   |   sensorTemperatura = fria: Nao (3.0/1.0)
+|   |   |   |   |   sensorTemperatura = moderada: Sim (3.0/1.0)
+|   |   |   |   |   sensorTemperatura = quente: Nao (4.0/1.0)
+|   |   |   sensorLuminosidade = escura: Nao (10.0/3.0)
+|   |   sensorHorario = tarde
+|   |   |   sensorTemperatura = fria: Nao (3.0/1.0)
+|   |   |   sensorTemperatura = moderada
+|   |   |   |   sensorCompanhia = sozinho: Sim (4.0/1.0)
+|   |   |   |   sensorCompanhia = acompanhado: Nao (5.0/1.0)
+|   |   |   sensorTemperatura = quente: Nao (6.0)
+|   |   sensorHorario = noite
+|   |   |   sensorTemperatura = fria: Sim (13.0/1.0)
+|   |   |   sensorTemperatura = moderada
+|   |   |   |   sensorLuminosidade = iluminada: Nao (2.0)
+|   |   |   |   sensorLuminosidade = escura
+|   |   |   |   |   sensorSemana = final_de_semana: Sim (6.0/1.0)
+|   |   |   |   |   sensorSemana = dia_da_semana
+|   |   |   |   |   |   sensorCompanhia = sozinho: Sim (2.0)
+|   |   |   |   |   |   sensorCompanhia = acompanhado: Nao (2.0)
+|   |   |   sensorTemperatura = quente
+|   |   |   |   sensorSemana = final_de_semana: Nao (4.0/1.0)
+|   |   |   |   sensorSemana = dia_da_semana
+|   |   |   |   |   sensorLuminosidade = iluminada: Sim (2.0)
+|   |   |   |   |   sensorLuminosidade = escura: Nao (2.0)
+|   |   sensorHorario = madrugada
+|   |   |   sensorSemana = final_de_semana
+|   |   |   |   sensorCompanhia = sozinho
+|   |   |   |   |   sensorTemperatura = fria: Sim (2.0)
+|   |   |   |   |   sensorTemperatura = moderada: Sim (2.0)
+|   |   |   |   |   sensorTemperatura = quente: Nao (3.0)
+|   |   |   |   sensorCompanhia = acompanhado: Nao (6.0/1.0)
+|   |   |   sensorSemana = dia_da_semana: Nao (13.0/3.0)
+sensorSofa = nao_esta_sentado
+|   sensorTelevisao = ligada
+|   |   sensorTemperatura = fria
+|   |   |   sensorHorario = manha
+|   |   |   |   sensorCompanhia = sozinho: Sim (2.0)
+|   |   |   |   sensorCompanhia = acompanhado: Nao (5.0/2.0)
+|   |   |   sensorHorario = tarde
+|   |   |   |   sensorCompanhia = sozinho: Nao (7.0/3.0)
+|   |   |   |   sensorCompanhia = acompanhado: Sim (4.0/1.0)
+|   |   |   sensorHorario = noite
+|   |   |   |   sensorCompanhia = sozinho: Sim (4.0/1.0)
+|   |   |   |   sensorCompanhia = acompanhado: Nao (5.0/2.0)
+|   |   |   sensorHorario = madrugada: Nao (3.0)
+|   |   sensorTemperatura = moderada
+|   |   |   sensorSemana = final_de_semana
+|   |   |   |   sensorHorario = manha: Sim (4.0/2.0)
+|   |   |   |   sensorHorario = tarde: Sim (1.0)
+|   |   |   |   sensorHorario = noite: Sim (1.0)
+|   |   |   |   sensorHorario = madrugada: Nao (5.0/2.0)
+|   |   |   sensorSemana = dia_da_semana: Sim (10.0/2.0)
+|   |   sensorTemperatura = quente
+|   |   |   sensorLuminosidade = iluminada: Nao (20.0/2.0)
+|   |   |   sensorLuminosidade = escura
+|   |   |   |   sensorHorario = manha: Nao (3.0/1.0)
+|   |   |   |   sensorHorario = tarde: Nao (7.0/2.0)
+|   |   |   |   sensorHorario = noite
+|   |   |   |   |   sensorSemana = final_de_semana: Sim (4.0)
+|   |   |   |   |   sensorSemana = dia_da_semana: Nao (3.0/1.0)
+|   |   |   |   sensorHorario = madrugada
+|   |   |   |   |   sensorCompanhia = sozinho: Sim (3.0/1.0)
+|   |   |   |   |   sensorCompanhia = acompanhado: Nao (2.0)
+|   sensorTelevisao = desligada
+|   |   sensorSemana = final_de_semana
+|   |   |   sensorLuminosidade = iluminada
+|   |   |   |   sensorTemperatura = fria
+|   |   |   |   |   sensorCompanhia = sozinho: Nao (3.0)
+|   |   |   |   |   sensorCompanhia = acompanhado: Sim (3.0/1.0)
+|   |   |   |   sensorTemperatura = moderada: Nao (12.0/2.0)
+|   |   |   |   sensorTemperatura = quente: Nao (12.0/3.0)
+|   |   |   sensorLuminosidade = escura
+|   |   |   |   sensorCompanhia = sozinho
+|   |   |   |   |   sensorHorario = manha: Nao (4.0/1.0)
+|   |   |   |   |   sensorHorario = tarde: Nao (5.0)
+|   |   |   |   |   sensorHorario = noite: Sim (1.0)
+|   |   |   |   |   sensorHorario = madrugada: Nao (5.0/1.0)
+|   |   |   |   sensorCompanhia = acompanhado
+|   |   |   |   |   sensorHorario = manha: Sim (5.0/2.0)
+|   |   |   |   |   sensorHorario = tarde: Nao (3.0/1.0)
+|   |   |   |   |   sensorHorario = noite: Nao (5.0/2.0)
+|   |   |   |   |   sensorHorario = madrugada: Sim (4.0/1.0)
+|   |   sensorSemana = dia_da_semana
+|   |   |   sensorHorario = manha: Nao (18.0/1.0)
+|   |   |   sensorHorario = tarde
+|   |   |   |   sensorTemperatura = fria: Nao (4.0/1.0)
+|   |   |   |   sensorTemperatura = moderada
+|   |   |   |   |   sensorLuminosidade = iluminada: Nao (3.0/1.0)
+|   |   |   |   |   sensorLuminosidade = escura: Sim (4.0/1.0)
+|   |   |   |   sensorTemperatura = quente: Nao (3.0)
+|   |   |   sensorHorario = noite: Nao (20.0/4.0)
+|   |   |   sensorHorario = madrugada: Nao (10.0/2.0)
+
+Number of Leaves  : 	74
+
+Size of the tree : 	121
+
+Attribute mappings:
+
+Model attributes              	    Incoming attributes
+------------------------------	    ----------------
+(nominal) sensorSemana        	--> 2 (nominal) sensorSemana
+(nominal) sensorCompanhia     	--> 3 (nominal) sensorCompanhia
+(nominal) sensorSofa          	--> 4 (nominal) sensorSofa
+(nominal) sensorHorario       	--> 5 (nominal) sensorHorario
+(nominal) sensorLuminosidade  	--> 6 (nominal) sensorLuminosidade
+(nominal) sensorTemperatura   	--> 7 (nominal) sensorTemperatura
+(nominal) sensorTelevisao     	--> 8 (nominal) sensorTelevisao
+(nominal) classe              	--> 9 (nominal) classe
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          44               58.6667 %
+Incorrectly Classified Instances        31               41.3333 %
+Kappa statistic                          0.1474
+Mean absolute error                      0.4491
+Root mean squared error                  0.5559
+Relative absolute error                 93.106  %
+Root relative squared error            114.146  %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,536    0,383    0,455      0,536    0,492      0,149    0,560     0,486     Sim
+                 0,617    0,464    0,690      0,617    0,652      0,149    0,560     0,645     Nao
+Weighted Avg.    0,587    0,434    0,602      0,587    0,592      0,149    0,560     0,585     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 15 13 |  a = Sim
+ 18 29 |  b = Nao
+

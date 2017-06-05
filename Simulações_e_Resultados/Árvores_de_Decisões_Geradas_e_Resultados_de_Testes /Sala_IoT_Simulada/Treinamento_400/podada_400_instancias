@@ -1,0 +1,114 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     400_instancias-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    400
+Attributes:   8
+              sensorSemana
+              sensorCompanhia
+              sensorSofa
+              sensorHorario
+              sensorLuminosidade
+              sensorTemperatura
+              sensorTelevisao
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+J48 pruned tree
+------------------
+
+sensorSofa = sentado
+|   sensorTelevisao = ligada
+|   |   sensorLuminosidade = iluminada
+|   |   |   sensorHorario = manha
+|   |   |   |   sensorSemana = final_de_semana: Sim (5.0/1.0)
+|   |   |   |   sensorSemana = dia_da_semana: Nao (8.0/1.0)
+|   |   |   sensorHorario = tarde: Sim (11.0/3.0)
+|   |   |   sensorHorario = noite
+|   |   |   |   sensorCompanhia = sozinho: Sim (6.0)
+|   |   |   |   sensorCompanhia = acompanhado: Nao (3.0/1.0)
+|   |   |   sensorHorario = madrugada
+|   |   |   |   sensorCompanhia = sozinho: Nao (3.0)
+|   |   |   |   sensorCompanhia = acompanhado: Sim (3.0/1.0)
+|   |   sensorLuminosidade = escura: Sim (44.0/11.0)
+|   sensorTelevisao = desligada
+|   |   sensorHorario = manha
+|   |   |   sensorLuminosidade = iluminada
+|   |   |   |   sensorSemana = final_de_semana: Sim (3.0)
+|   |   |   |   sensorSemana = dia_da_semana: Nao (10.0/4.0)
+|   |   |   sensorLuminosidade = escura: Nao (10.0/3.0)
+|   |   sensorHorario = tarde: Nao (18.0/5.0)
+|   |   sensorHorario = noite
+|   |   |   sensorTemperatura = fria: Sim (13.0/1.0)
+|   |   |   sensorTemperatura = moderada
+|   |   |   |   sensorLuminosidade = iluminada: Nao (2.0)
+|   |   |   |   sensorLuminosidade = escura
+|   |   |   |   |   sensorSemana = final_de_semana: Sim (6.0/1.0)
+|   |   |   |   |   sensorSemana = dia_da_semana
+|   |   |   |   |   |   sensorCompanhia = sozinho: Sim (2.0)
+|   |   |   |   |   |   sensorCompanhia = acompanhado: Nao (2.0)
+|   |   |   sensorTemperatura = quente
+|   |   |   |   sensorSemana = final_de_semana: Nao (4.0/1.0)
+|   |   |   |   sensorSemana = dia_da_semana
+|   |   |   |   |   sensorLuminosidade = iluminada: Sim (2.0)
+|   |   |   |   |   sensorLuminosidade = escura: Nao (2.0)
+|   |   sensorHorario = madrugada: Nao (26.0/8.0)
+sensorSofa = nao_esta_sentado
+|   sensorTelevisao = ligada
+|   |   sensorTemperatura = fria: Sim (30.0/15.0)
+|   |   sensorTemperatura = moderada: Sim (21.0/7.0)
+|   |   sensorTemperatura = quente: Nao (42.0/12.0)
+|   sensorTelevisao = desligada: Nao (124.0/31.0)
+
+Number of Leaves  : 	25
+
+Size of the tree : 	43
+
+Attribute mappings:
+
+Model attributes              	    Incoming attributes
+------------------------------	    ----------------
+(nominal) sensorSemana        	--> 2 (nominal) sensorSemana
+(nominal) sensorCompanhia     	--> 3 (nominal) sensorCompanhia
+(nominal) sensorSofa          	--> 4 (nominal) sensorSofa
+(nominal) sensorHorario       	--> 5 (nominal) sensorHorario
+(nominal) sensorLuminosidade  	--> 6 (nominal) sensorLuminosidade
+(nominal) sensorTemperatura   	--> 7 (nominal) sensorTemperatura
+(nominal) sensorTelevisao     	--> 8 (nominal) sensorTelevisao
+(nominal) classe              	--> 9 (nominal) classe
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          42               56      %
+Incorrectly Classified Instances        33               44      %
+Kappa statistic                          0.0796
+Mean absolute error                      0.461 
+Root mean squared error                  0.5285
+Relative absolute error                 95.5666 %
+Root relative squared error            108.5137 %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,464    0,383    0,419      0,464    0,441      0,080    0,563     0,437     Sim
+                 0,617    0,536    0,659      0,617    0,637      0,080    0,563     0,660     Nao
+Weighted Avg.    0,560    0,479    0,570      0,560    0,564      0,080    0,563     0,577     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 13 15 |  a = Sim
+ 18 29 |  b = Nao
+

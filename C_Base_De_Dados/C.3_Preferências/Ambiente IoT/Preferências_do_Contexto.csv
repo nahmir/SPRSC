@@ -1,0 +1,501 @@
+ID de Usuario,Sensor Semana,Sensor Companhia,Sensor Sofa,Sensor Horario,Sensor Luminosidade,Sensor Temperatura,Sensor Televisao,Assistiria Filme?
+1,dia da semana,sozinho,nao esta sentado,noite,escura,fria,desligada,nao
+1,final de semana,acompanhado,nao esta sentado,madrugada,escura,com temperatura moderada,desligada,nao
+1,dia da semana,acompanhado,sentado,manha,iluminada,quente,ligada,nao
+1,dia da semana,sozinho,sentado,madrugada,iluminada,quente,desligada,sim
+1,dia da semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,desligada,nao
+1,final de semana,sozinho,nao esta sentado,tarde,iluminada,quente,ligada,nao
+1,final de semana,acompanhado,nao esta sentado,manha,escura,quente,desligada,nao
+1,final de semana,sozinho,sentado,tarde,escura,com temperatura moderada,desligada,nao
+1,final de semana,sozinho,nao esta sentado,tarde,escura,fria,ligada,nao
+1,final de semana,sozinho,sentado,madrugada,escura,com temperatura moderada,desligada,sim
+1,dia da semana,sozinho,sentado,madrugada,iluminada,fria,desligada,nao
+1,dia da semana,sozinho,sentado,manha,escura,com temperatura moderada,desligada,nao
+1,final de semana,acompanhado,nao esta sentado,manha,iluminada,fria,ligada,n+AOM-o
+1,dia da semana,sozinho,sentado,noite,iluminada,quente,ligada,sim
+1,dia da semana,sozinho,sentado,noite,iluminada,com temperatura moderada,ligada,sim
+1,final de semana,acompanhado,nao esta sentado,madrugada,iluminada,com temperatura moderada,desligada,nao
+1,dia da semana,acompanhado,sentado,tarde,iluminada,com temperatura moderada,desligada,nao
+1,dia da semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,desligada,nao
+1,dia da semana,acompanhado,nao esta sentado,tarde,iluminada,com temperatura moderada,ligada,nao
+1,final de semana,acompanhado,sentado,noite,escura,quente,desligada,sim
+1,final de semana,sozinho,nao esta sentado,manha,iluminada,quente,desligada,nao
+1,dia da semana,sozinho,sentado,noite,iluminada,quente,ligada,sim
+1,final de semana,sozinho,sentado,noite,escura,fria,desligada,sim
+1,dia da semana,acompanhado,sentado,madrugada,escura,fria,ligada,sim
+1,dia da semana,sozinho,sentado,noite,escura,com temperatura moderada,desligada,sim
+2,final de semana,sozinho,sentado,noite,escura,fria,desligada,sim
+2,dia da semana,acompanhado,nao esta sentado,manha,iluminada,fria,desligada,nao
+2,dia da semana,acompanhado,nao esta sentado,tarde,escura,quente,desligada,nao
+2,dia da semana,acompanhado,nao esta sentado,manha,iluminada,fria,desligada,nao
+2,final de semana,sozinho,nao esta sentado,tarde,iluminada,fria,ligada,nao
+2,dia da semana,acompanhado,nao esta sentado,noite,iluminada,quente,desligada,nao
+2,final de semana,sozinho,sentado,manha,iluminada,quente,ligada,sim
+2,final de semana,acompanhado,nao esta sentado,tarde,iluminada,com temperatura moderada,desligada,sim
+2,dia da semana,sozinho,nao esta sentado,manha,iluminada,com temperatura moderada,desligada,sim
+2,dia da semana,sozinho,sentado,manha,iluminada,fria,ligada,sim
+2,dia da semana,sozinho,sentado,madrugada,escura,fria,desligada,nao
+2,dia da semana,acompanhado,sentado,madrugada,escura,com temperatura moderada,ligada,sim
+2,final de semana,sozinho,nao esta sentado,noite,iluminada,quente,ligada,sim
+2,final de semana,acompanhado,sentado,noite,iluminada,quente,desligada,nao
+2,dia da semana,sozinho,nao esta sentado,noite,escura,quente,desligada,sim
+2,dia da semana,acompanhado,sentado,noite,iluminada,fria,desligada,ao
+2,dia da semana,acompanhado,nao esta sentado,madrugada,escura,quente,ligada,nao
+2,final de semana,sozinho,sentado,manha,escura,fria,desligada,sim
+2,final de semana,acompanhado,nao esta sentado,tarde,escura,quente,ligada,nao
+2,final de semana,acompanhado,nao esta sentado,manha,iluminada,fria,ligada,sim
+2,dia da semana,sozinho,sentado,manha,iluminada,quente,desligada,sim
+2,final de semana,acompanhado,sentado,madrugada,escura,fria,desligada,nao
+2,final de semana,acompanhado,sentado,manha,escura,com temperatura moderada,ligada,sim
+2,dia da semana,acompanhado,nao esta sentado,tarde,escura,quente,ligada,nao
+2,final de semana,sozinho,sentado,manha,escura,quente,desligada,sim
+3,dia da semana,sozinho,sentado,noite,escura,com temperatura moderada,ligada,sim
+3,dia da semana,acompanhado,nao esta sentado,tarde,iluminada,fria,ligada,sim
+3,final de semana,acompanhado,sentado,madrugada,escura,com temperatura moderada,ligada,nao
+3,final de semana,sozinho,nao esta sentado,tarde,escura,fria,ligada,sim
+3,dia da semana,acompanhado,sentado,tarde,escura,quente,ligada,sim
+3,dia da semana,sozinho,nao esta sentado,tarde,iluminada,quente,desligada,nao
+3,final de semana,acompanhado,sentado,tarde,iluminada,com temperatura moderada,desligada,nao
+3,final de semana,sozinho,sentado,madrugada,escura,fria,ligada,sim
+3,final de semana,sozinho,nao esta sentado,manha,iluminada,com temperatura moderada,ligada,sim
+3,dia da semana,sozinho,sentado,tarde,iluminada,quente,desligada,nao
+3,dia da semana,acompanhado,sentado,madrugada,iluminada,com temperatura moderada,ligada,sim
+3,dia da semana,acompanhado,sentado,noite,escura,com temperatura moderada,desligada,nao
+3,dia da semana,sozinho,sentado,madrugada,iluminada,quente,desligada,nao
+3,final de semana,sozinho,sentado,manha,iluminada,fria,ligada,sim
+3,dia da semana,sozinho,nao esta sentado,noite,escura,quente,desligada,nao
+3,dia da semana,acompanhado,sentado,madrugada,escura,fria,desligada,nao
+3,final de semana,sozinho,nao esta sentado,madrugada,escura,fria,desligada,nao
+3,dia da semana,sozinho,sentado,tarde,escura,fria,desligada,nao
+3,dia da semana,acompanhado,nao esta sentado,manha,escura,fria,ligada,nao
+3,final de semana,acompanhado,sentado,manha,escura,fria,ligada,sim
+3,dia da semana,acompanhado,sentado,tarde,iluminada,quente,ligada,sim
+3,final de semana,sozinho,sentado,madrugada,escura,com temperatura moderada,ligada,sim
+3,dia da semana,sozinho,nao esta sentado,madrugada,iluminada,com temperatura moderada,desligada,nao
+3,final de semana,acompanhado,sentado,noite,escura,fria,desligada,nao
+3,dia da semana,sozinho,nao esta sentado,tarde,iluminada,quente,ligada,nao
+4,dia da semana,acompanhado,nao esta sentado,tarde,iluminada,fria,ligada,Nao
+4,final de semana,acompanhado,nao esta sentado,manha,iluminada,quente,desligada,nao
+4,dia da semana,acompanhado,sentado,tarde,iluminada,fria,desligada,sim
+4,final de semana,acompanhado,nao esta sentado,tarde,escura,com temperatura moderada,desligada,sim
+4,dia da semana,acompanhado,sentado,manha,iluminada,com temperatura moderada,desligada,sim
+4,dia da semana,sozinho,sentado,noite,iluminada,fria,desligada,sim
+4,dia da semana,acompanhado,nao esta sentado,tarde,iluminada,fria,desligada,nao
+4,final de semana,acompanhado,nao esta sentado,noite,iluminada,fria,desligada,sim
+4,dia da semana,sozinho,sentado,manha,iluminada,fria,desligada,sim
+4,dia da semana,sozinho,nao esta sentado,tarde,iluminada,fria,ligada,sim
+4,final de semana,sozinho,sentado,manha,iluminada,com temperatura moderada,ligada,sim
+4,final de semana,acompanhado,nao esta sentado,manha,iluminada,com temperatura moderada,desligada,nao
+4,final de semana,acompanhado,nao esta sentado,manha,escura,com temperatura moderada,desligada,nao
+4,final de semana,acompanhado,sentado,noite,escura,com temperatura moderada,ligada,sim
+4,dia da semana,sozinho,sentado,manha,iluminada,com temperatura moderada,desligada,sim
+4,dia da semana,acompanhado,nao esta sentado,madrugada,iluminada,fria,ligada,sim
+4,dia da semana,acompanhado,sentado,noite,iluminada,fria,desligada,sim
+4,dia da semana,acompanhado,sentado,manha,escura,fria,ligada,sim
+4,dia da semana,acompanhado,nao esta sentado,noite,iluminada,fria,desligada,nao
+4,final de semana,sozinho,nao esta sentado,tarde,iluminada,quente,desligada,sim
+4,dia da semana,sozinho,sentado,tarde,iluminada,quente,ligada,sim
+4,final de semana,acompanhado,nao esta sentado,manha,escura,quente,ligada,nao
+4,final de semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,ligada,sim
+4,dia da semana,sozinho,nao esta sentado,tarde,iluminada,com temperatura moderada,ligada,sim
+4,dia da semana,acompanhado,nao esta sentado,manha,escura,com temperatura moderada,desligada,nao
+5,dia da semana,acompanhado,sentado,manha,escura,quente,ligada,sim
+5,dia da semana,sozinho,nao esta sentado,madrugada,escura,com temperatura moderada,desligada,nao
+5,final de semana,sozinho,nao esta sentado,tarde,iluminada,fria,desligada,nao
+5,dia da semana,acompanhado,sentado,tarde,escura,com temperatura moderada,ligada,sim
+5,dia da semana,acompanhado,sentado,manha,escura,com temperatura moderada,ligada,nao
+5,dia da semana,acompanhado,nao esta sentado,noite,escura,quente,ligada,nao
+5,final de semana,sozinho,sentado,tarde,escura,com temperatura moderada,desligada,sim
+5,dia da semana,acompanhado,nao esta sentado,noite,iluminada,fria,ligada,nao
+5,final de semana,sozinho,nao esta sentado,noite,iluminada,com temperatura moderada,ligada,sim
+5,final de semana,acompanhado,nao esta sentado,madrugada,iluminada,quente,desligada,nao
+5,final de semana,acompanhado,sentado,noite,iluminada,com temperatura moderada,ligada,sim
+5,dia da semana,acompanhado,sentado,manha,escura,com temperatura moderada,desligada,nao
+5,dia da semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,ligada,nao
+5,dia da semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,desligada,nao
+5,final de semana,sozinho,nao esta sentado,tarde,escura,fria,desligada,nao
+5,final de semana,acompanhado,nao esta sentado,madrugada,escura,com temperatura moderada,ligada,nao
+5,final de semana,acompanhado,nao esta sentado,noite,iluminada,com temperatura moderada,desligada,nao
+5,dia da semana,sozinho,sentado,manha,escura,quente,desligada,sim
+5,final de semana,acompanhado,nao esta sentado,tarde,iluminada,quente,desligada,nao
+5,dia da semana,acompanhado,nao esta sentado,madrugada,escura,com temperatura moderada,ligada,nao
+5,final de semana,acompanhado,sentado,noite,escura,quente,desligada,sim
+5,dia da semana,sozinho,sentado,noite,iluminada,fria,desligada,sim
+5,final de semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,ligada,sim
+5,dia da semana,acompanhado,sentado,tarde,escura,quente,ligada,sim
+5,dia da semana,sozinho,sentado,manha,escura,quente,ligada,sim
+6,final de semana,acompanhado,sentado,noite,escura,com temperatura moderada,desligada,sim
+6,dia da semana,sozinho,nao esta sentado,manha,iluminada,quente,ligada,nao
+6,final de semana,sozinho,sentado,noite,iluminada,com temperatura moderada,ligada,sim
+6,final de semana,acompanhado,sentado,madrugada,iluminada,fria,desligada,nao
+6,dia da semana,acompanhado,sentado,noite,iluminada,quente,desligada,sim
+6,dia da semana,sozinho,nao esta sentado,noite,iluminada,quente,desligada,nao
+6,final de semana,sozinho,nao esta sentado,manha,escura,fria,ligada,sim
+6,dia da semana,acompanhado,sentado,manha,iluminada,com temperatura moderada,ligada,nao
+6,dia da semana,acompanhado,nao esta sentado,noite,escura,quente,desligada,nao
+6,final de semana,sozinho,nao esta sentado,noite,escura,com temperatura moderada,desligada,sim
+6,dia da semana,sozinho,sentado,manha,iluminada,fria,ligada,nao
+6,final de semana,acompanhado,nao esta sentado,tarde,iluminada,fria,desligada,sim
+6,dia da semana,acompanhado,nao esta sentado,noite,iluminada,fria,desligada,sim
+6,final de semana,acompanhado,nao esta sentado,noite,escura,quente,desligada,sim
+6,final de semana,sozinho,nao esta sentado,manha,iluminada,fria,ligada,sim
+6,final de semana,acompanhado,sentado,noite,escura,fria,ligada,sim
+6,dia da semana,acompanhado,nao esta sentado,noite,escura,fria,desligada,sim
+6,dia da semana,sozinho,sentado,madrugada,iluminada,quente,ligada,nao
+6,dia da semana,acompanhado,nao esta sentado,tarde,escura,com temperatura moderada,desligada,sim
+6,final de semana,sozinho,sentado,madrugada,iluminada,fria,ligada,sim
+6,dia da semana,acompanhado,nao esta sentado,tarde,iluminada,quente,ligada,nao
+6,final de semana,acompanhado,nao esta sentado,noite,escura,fria,desligada,sim
+6,final de semana,acompanhado,nao esta sentado,manha,escura,com temperatura moderada,desligada,sim
+6,final de semana,sozinho,nao esta sentado,manha,escura,quente,ligada,sim
+6,final de semana,sozinho,sentado,tarde,escura,quente,desligada,sim
+7,dia da semana,acompanhado,nao esta sentado,manha,iluminada,com temperatura moderada,ligada,sim
+7,dia da semana,sozinho,nao esta sentado,noite,iluminada,com temperatura moderada,ligada,sim
+7,final de semana,sozinho,nao esta sentado,noite,iluminada,quente,ligada,nao
+7,dia da semana,acompanhado,sentado,noite,escura,fria,desligada,sim
+7,dia da semana,acompanhado,nao esta sentado,tarde,escura,fria,desligada,nao
+7,final de semana,acompanhado,nao esta sentado,madrugada,escura,com temperatura moderada,ligada,sim
+7,final de semana,sozinho,sentado,manha,escura,fria,desligada,nao
+7,final de semana,acompanhado,nao esta sentado,tarde,escura,fria,desligada,nao
+7,dia da semana,sozinho,sentado,manha,iluminada,com temperatura moderada,ligada,nao
+7,dia da semana,acompanhado,sentado,tarde,iluminada,quente,desligada,nao
+7,final de semana,sozinho,sentado,noite,iluminada,fria,desligada,sim
+7,dia da semana,sozinho,sentado,noite,escura,quente,desligada,nao
+7,dia da semana,acompanhado,sentado,noite,escura,com temperatura moderada,desligada,nao
+7,dia da semana,acompanhado,nao esta sentado,noite,escura,fria,desligada,nao
+7,final de semana,sozinho,sentado,noite,escura,com temperatura moderada,ligada,sim
+7,final de semana,acompanhado,nao esta sentado,manha,escura,quente,desligada,sim
+7,dia da semana,acompanhado,nao esta sentado,manha,iluminada,com temperatura moderada,desligada,nao
+7,final de semana,acompanhado,nao esta sentado,madrugada,iluminada,com temperatura moderada,desligada,sim
+7,dia da semana,sozinho,sentado,manha,iluminada,com temperatura moderada,desligada,nao
+7,final de semana,acompanhado,nao esta sentado,manha,iluminada,fria,desligada,nao
+7,dia da semana,sozinho,nao esta sentado,tarde,iluminada,fria,desligada,nao
+7,dia da semana,sozinho,sentado,manha,escura,quente,desligada,nao
+7,dia da semana,acompanhado,sentado,tarde,escura,fria,ligada,nao
+7,dia da semana,acompanhado,nao esta sentado,noite,escura,com temperatura moderada,ligada,nao
+7,final de semana,sozinho,sentado,manha,iluminada,fria,ligada,nao
+8,final de semana,acompanhado,sentado,noite,escura,quente,desligada,nao
+8,final de semana,acompanhado,sentado,tarde,escura,com temperatura moderada,desligada,nao
+8,final de semana,sozinho,nao esta sentado,tarde,escura,com temperatura moderada,ligada,sim
+8,final de semana,acompanhado,sentado,tarde,escura,quente,desligada,nao
+8,dia da semana,acompanhado,nao esta sentado,madrugada,iluminada,com temperatura moderada,ligada,sim
+8,dia da semana,sozinho,sentado,manha,iluminada,fria,desligada,nao
+8,final de semana,acompanhado,nao esta sentado,noite,escura,fria,desligada,nao
+8,final de semana,sozinho,sentado,manha,escura,fria,desligada,nao
+8,dia da semana,acompanhado,nao esta sentado,tarde,iluminada,fria,desligada,nao
+8,final de semana,sozinho,nao esta sentado,madrugada,iluminada,quente,desligada,sim
+8,final de semana,sozinho,sentado,manha,escura,com temperatura moderada,ligada,sim
+8,final de semana,sozinho,nao esta sentado,manha,iluminada,com temperatura moderada,ligada,sim
+8,dia da semana,sozinho,nao esta sentado,tarde,escura,quente,ligada,sim
+8,final de semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,desligada,nao
+8,dia da semana,acompanhado,nao esta sentado,madrugada,iluminada,com temperatura moderada,desligada,nao
+8,dia da semana,sozinho,nao esta sentado,noite,iluminada,quente,ligada,sim
+8,final de semana,acompanhado,sentado,tarde,iluminada,com temperatura moderada,ligada,nao
+8,dia da semana,sozinho,nao esta sentado,noite,escura,com temperatura moderada,desligada,sim
+8,final de semana,sozinho,sentado,tarde,escura,com temperatura moderada,ligada,sim
+8,dia da semana,acompanhado,sentado,tarde,iluminada,quente,desligada,nao
+8,final de semana,sozinho,sentado,noite,escura,com temperatura moderada,desligada,sim
+8,dia da semana,acompanhado,nao esta sentado,tarde,escura,fria,ligada,nao
+8,dia da semana,acompanhado,sentado,noite,escura,quente,desligada,nao
+8,final de semana,acompanhado,nao esta sentado,noite,escura,quente,desligada,nao
+8,dia da semana,sozinho,nao esta sentado,manha,iluminada,quente,desligada,nao
+9,dia da semana,sozinho,nao esta sentado,noite,iluminada,fria,ligada,Sim eu iria assitiria
+9,dia da semana,sozinho,nao esta sentado,noite,escura,quente,ligada,Sim assitiria
+9,dia da semana,acompanhado,sentado,noite,iluminada,quente,ligada,Nessa caso n+//0Aw//9AKM-o
+9,dia da semana,acompanhado,sentado,tarde,iluminada,quente,ligada,n+//0Aw//9AKM-o
+9,dia da semana,sozinho,sentado,noite,escura,com temperatura moderada,desligada,Sim
+9,final de semana,sozinho,sentado,madrugada,iluminada,fria,ligada,n+//0Aw//9AKM-o iria dormir
+9,final de semana,sozinho,nao esta sentado,noite,iluminada,com temperatura moderada,desligada,sim
+9,final de semana,acompanhado,nao esta sentado,noite,iluminada,fria,ligada,n+//0Aw//9AKM-o 
+9,final de semana,sozinho,sentado,tarde,iluminada,fria,ligada,sim
+9,final de semana,sozinho,nao esta sentado,noite,escura,com temperatura moderada,desligada,sim
+9,dia da semana,acompanhado,nao esta sentado,manha,escura,quente,ligada,n+//0Aw//9AKM-o provavelmente iria dormir
+9,final de semana,acompanhado,nao esta sentado,madrugada,iluminada,quente,ligada,n+//0Aw//9AKM-o
+9,dia da semana,acompanhado,sentado,manha,escura,com temperatura moderada,ligada,n+//0Aw//9AKM-o
+9,dia da semana,acompanhado,sentado,tarde,iluminada,com temperatura moderada,desligada,n+//0Aw//9AKM-o
+9,dia da semana,acompanhado,sentado,tarde,escura,quente,desligada,n+//0Aw//9AKM-o
+9,final de semana,acompanhado,nao esta sentado,tarde,escura,fria,desligada,n+//0Aw//9AKM-o
+9,dia da semana,sozinho,nao esta sentado,madrugada,iluminada,quente,desligada,n+//0Aw//9AKM-o
+9,final de semana,acompanhado,sentado,madrugada,escura,com temperatura moderada,desligada,n+//0Aw//9AKM-o
+9,final de semana,sozinho,nao esta sentado,noite,escura,fria,desligada,sim
+9,final de semana,acompanhado,nao esta sentado,manha,iluminada,fria,ligada,n+//0Aw//9AKM-o
+9,final de semana,sozinho,nao esta sentado,noite,iluminada,fria,ligada,sim
+9,final de semana,sozinho,nao esta sentado,tarde,escura,quente,ligada,sim
+9,final de semana,acompanhado,sentado,noite,iluminada,com temperatura moderada,ligada,n+//0Aw//9AKM-o
+9,dia da semana,sozinho,nao esta sentado,tarde,escura,com temperatura moderada,ligada,sim
+9,final de semana,acompanhado,sentado,noite,escura,fria,ligada,n+//0Aw//9AKM-o
+10,dia da semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,ligada,sim
+10,final de semana,sozinho,sentado,noite,escura,com temperatura moderada,desligada,nao
+10,final de semana,sozinho,nao esta sentado,tarde,iluminada,fria,ligada,sim
+10,dia da semana,acompanhado,nao esta sentado,madrugada,iluminada,quente,desligada,nao
+10,dia da semana,sozinho,sentado,tarde,escura,com temperatura moderada,ligada,sim
+10,final de semana,acompanhado,nao esta sentado,noite,iluminada,quente,ligada,nao
+10,dia da semana,sozinho,sentado,madrugada,iluminada,quente,ligada,nao
+10,dia da semana,acompanhado,nao esta sentado,manha,escura,quente,desligada,nao
+10,final de semana,acompanhado,nao esta sentado,manha,escura,fria,desligada,sim
+10,final de semana,sozinho,sentado,manha,iluminada,com temperatura moderada,desligada,sim
+10,dia da semana,sozinho,nao esta sentado,madrugada,iluminada,com temperatura moderada,desligada,nao
+10,dia da semana,sozinho,sentado,madrugada,iluminada,com temperatura moderada,desligada,nao
+10,final de semana,sozinho,sentado,madrugada,escura,fria,desligada,sim
+10,dia da semana,acompanhado,nao esta sentado,madrugada,iluminada,quente,desligada,nao
+10,dia da semana,sozinho,nao esta sentado,noite,escura,com temperatura moderada,desligada,nao
+10,dia da semana,acompanhado,nao esta sentado,madrugada,escura,fria,desligada,nao
+10,final de semana,sozinho,nao esta sentado,manha,iluminada,quente,ligada,nao
+10,final de semana,acompanhado,sentado,madrugada,escura,com temperatura moderada,ligada,sim
+10,final de semana,acompanhado,sentado,madrugada,escura,com temperatura moderada,desligada,sim
+10,final de semana,acompanhado,nao esta sentado,madrugada,iluminada,quente,desligada,nao
+10,final de semana,acompanhado,nao esta sentado,madrugada,iluminada,com temperatura moderada,ligada,nao
+10,dia da semana,sozinho,nao esta sentado,tarde,iluminada,com temperatura moderada,ligada,sim
+10,final de semana,acompanhado,sentado,tarde,iluminada,quente,desligada,nao
+10,dia da semana,acompanhado,sentado,manha,iluminada,quente,desligada,nao
+10,final de semana,acompanhado,nao esta sentado,tarde,iluminada,quente,desligada,nao
+11,final de semana,acompanhado,nao esta sentado,noite,escura,fria,desligada,Sim
+11,final de semana,acompanhado,sentado,noite,escura,com temperatura moderada,desligada,Sim
+11,dia da semana,acompanhado,nao esta sentado,madrugada,escura,fria,desligada,Nao
+11,final de semana,acompanhado,nao esta sentado,tarde,iluminada,com temperatura moderada,desligada,Nao
+11,final de semana,acompanhado,sentado,madrugada,iluminada,com temperatura moderada,desligada,Nao
+11,dia da semana,acompanhado,nao esta sentado,noite,escura,quente,desligada,Nao
+11,final de semana,sozinho,sentado,noite,escura,fria,desligada,Sim
+11,final de semana,sozinho,nao esta sentado,tarde,iluminada,quente,desligada,Nao
+11,dia da semana,acompanhado,sentado,manha,escura,fria,desligada,Sim
+11,final de semana,sozinho,nao esta sentado,tarde,escura,fria,desligada,Nao
+11,dia da semana,sozinho,sentado,manha,iluminada,quente,ligada,Nao
+11,final de semana,acompanhado,sentado,madrugada,escura,quente,ligada,Sim
+11,dia da semana,acompanhado,sentado,noite,iluminada,quente,desligada,Nao
+11,dia da semana,acompanhado,sentado,noite,escura,fria,desligada,Sim
+11,dia da semana,acompanhado,nao esta sentado,tarde,escura,com temperatura moderada,ligada,Sim
+11,final de semana,sozinho,nao esta sentado,tarde,escura,quente,desligada,Nao
+11,final de semana,acompanhado,nao esta sentado,madrugada,escura,quente,desligada,Nao
+11,dia da semana,sozinho,sentado,noite,iluminada,com temperatura moderada,desligada,Sim
+11,dia da semana,sozinho,nao esta sentado,manha,iluminada,quente,desligada,Nao
+11,dia da semana,acompanhado,nao esta sentado,noite,escura,fria,ligada,Sim
+11,final de semana,acompanhado,nao esta sentado,noite,iluminada,com temperatura moderada,desligada,Nao
+11,final de semana,sozinho,sentado,manha,iluminada,quente,desligada,Sim
+11,final de semana,sozinho,nao esta sentado,manha,iluminada,fria,ligada,Nao
+11,final de semana,sozinho,sentado,tarde,escura,com temperatura moderada,ligada,Sim
+11,final de semana,acompanhado,nao esta sentado,madrugada,iluminada,quente,desligada,Sim
+12,dia da semana,sozinho,nao esta sentado,madrugada,escura,quente,ligada,sim
+12,dia da semana,acompanhado,sentado,tarde,iluminada,quente,desligada,nao
+12,dia da semana,sozinho,nao esta sentado,noite,iluminada,quente,desligada,sim
+12,final de semana,acompanhado,nao esta sentado,tarde,iluminada,quente,ligada,nao
+12,final de semana,sozinho,sentado,manha,escura,fria,desligada,sim
+12,final de semana,acompanhado,nao esta sentado,noite,iluminada,fria,ligada,sim
+12,dia da semana,acompanhado,sentado,tarde,escura,com temperatura moderada,ligada,sim
+12,dia da semana,sozinho,nao esta sentado,madrugada,iluminada,quente,ligada,nao
+12,dia da semana,acompanhado,sentado,manha,escura,com temperatura moderada,ligada,sim
+12,dia da semana,sozinho,nao esta sentado,noite,iluminada,quente,ligada,nao
+12,dia da semana,acompanhado,sentado,tarde,escura,fria,ligada,nao
+12,final de semana,sozinho,nao esta sentado,madrugada,escura,fria,ligada,nao
+12,final de semana,acompanhado,sentado,manha,escura,fria,ligada,sim
+12,dia da semana,acompanhado,nao esta sentado,tarde,escura,com temperatura moderada,desligada,nao
+12,final de semana,sozinho,nao esta sentado,tarde,escura,quente,ligada,sim
+12,final de semana,sozinho,nao esta sentado,madrugada,escura,fria,desligada,nao
+12,dia da semana,acompanhado,nao esta sentado,noite,escura,quente,ligada,nao
+12,final de semana,acompanhado,nao esta sentado,tarde,iluminada,com temperatura moderada,desligada,nao
+12,dia da semana,sozinho,nao esta sentado,noite,escura,com temperatura moderada,desligada,nao
+12,dia da semana,acompanhado,sentado,tarde,iluminada,quente,ligada,sim
+12,dia da semana,acompanhado,sentado,manha,escura,com temperatura moderada,ligada,sim
+12,final de semana,sozinho,nao esta sentado,manha,iluminada,com temperatura moderada,ligada,nao
+12,final de semana,acompanhado,nao esta sentado,madrugada,iluminada,fria,desligada,nao
+12,final de semana,acompanhado,nao esta sentado,noite,escura,quente,ligada,sim
+12,dia da semana,sozinho,sentado,manha,escura,fria,ligada,sim
+13,dia da semana,acompanhado,sentado,madrugada,escura,quente,desligada,sim
+13,dia da semana,acompanhado,nao esta sentado,tarde,escura,com temperatura moderada,desligada,sim
+13,final de semana,acompanhado,sentado,madrugada,escura,fria,ligada,sim
+13,final de semana,sozinho,nao esta sentado,manha,escura,fria,desligada,sim
+13,final de semana,sozinho,sentado,tarde,escura,fria,ligada,nao
+13,dia da semana,acompanhado,nao esta sentado,manha,iluminada,fria,ligada,nao
+13,dia da semana,sozinho,nao esta sentado,noite,escura,fria,desligada,nao
+13,dia da semana,sozinho,sentado,manha,iluminada,quente,ligada,nao
+13,dia da semana,sozinho,nao esta sentado,manha,escura,fria,desligada,nao
+13,dia da semana,sozinho,sentado,tarde,escura,com temperatura moderada,ligada,sim
+13,final de semana,sozinho,nao esta sentado,madrugada,escura,quente,desligada,sim
+13,dia da semana,sozinho,nao esta sentado,manha,iluminada,quente,ligada,nao
+13,dia da semana,sozinho,sentado,manha,iluminada,quente,desligada,nao
+13,dia da semana,acompanhado,sentado,manha,iluminada,fria,ligada,nao
+13,dia da semana,sozinho,nao esta sentado,tarde,iluminada,fria,desligada,nao
+13,final de semana,acompanhado,nao esta sentado,noite,escura,quente,ligada,sim
+13,dia da semana,acompanhado,sentado,noite,escura,fria,ligada,sim
+13,dia da semana,sozinho,nao esta sentado,tarde,iluminada,com temperatura moderada,desligada,sim
+13,dia da semana,acompanhado,nao esta sentado,madrugada,iluminada,quente,desligada,sim
+13,final de semana,sozinho,nao esta sentado,madrugada,iluminada,fria,desligada,nao
+13,dia da semana,sozinho,nao esta sentado,madrugada,escura,quente,ligada,sim
+13,dia da semana,acompanhado,nao esta sentado,madrugada,iluminada,quente,desligada,sim
+13,final de semana,acompanhado,nao esta sentado,madrugada,escura,quente,desligada,sm
+13,final de semana,acompanhado,nao esta sentado,madrugada,escura,quente,desligada,sim
+13,final de semana,acompanhado,nao esta sentado,noite,escura,quente,ligada,sim
+14,final de semana,sozinho,nao esta sentado,manha,escura,quente,desligada,nao
+14,dia da semana,acompanhado,sentado,manha,iluminada,fria,ligada,nao
+14,dia da semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,desligada,nao
+14,dia da semana,sozinho,nao esta sentado,manha,iluminada,quente,ligada,nao
+14,dia da semana,sozinho,sentado,tarde,iluminada,quente,desligada,nao
+14,final de semana,sozinho,sentado,madrugada,escura,com temperatura moderada,desligada,sim
+14,final de semana,acompanhado,nao esta sentado,manha,iluminada,com temperatura moderada,desligada,nao
+14,final de semana,sozinho,sentado,madrugada,escura,com temperatura moderada,ligada,sim
+14,dia da semana,sozinho,sentado,tarde,iluminada,fria,ligada,nao
+14,dia da semana,acompanhado,nao esta sentado,noite,iluminada,quente,ligada,nao
+14,final de semana,sozinho,nao esta sentado,tarde,escura,quente,ligada,nao
+14,dia da semana,acompanhado,sentado,madrugada,escura,quente,desligada,nao
+14,dia da semana,sozinho,nao esta sentado,noite,escura,com temperatura moderada,desligada,nao
+14,final de semana,sozinho,nao esta sentado,noite,escura,quente,ligada,sim
+14,dia da semana,sozinho,sentado,manha,iluminada,fria,desligada,nao
+14,final de semana,acompanhado,sentado,manha,escura,com temperatura moderada,ligada,nao
+14,final de semana,sozinho,nao esta sentado,manha,escura,quente,desligada,nao
+14,final de semana,acompanhado,nao esta sentado,noite,escura,quente,desligada,nao
+14,final de semana,acompanhado,nao esta sentado,noite,escura,com temperatura moderada,desligada,nao
+14,final de semana,sozinho,sentado,madrugada,iluminada,quente,desligada,nao
+14,final de semana,acompanhado,sentado,manha,escura,fria,desligada,nao
+14,final de semana,acompanhado,sentado,madrugada,escura,fria,ligada,nao
+14,final de semana,acompanhado,sentado,madrugada,iluminada,com temperatura moderada,desligada,nao
+14,dia da semana,sozinho,sentado,tarde,escura,fria,desligada,nao
+14,dia da semana,sozinho,nao esta sentado,manha,iluminada,com temperatura moderada,desligada,nao
+15,final de semana,sozinho,nao esta sentado,manha,iluminada,quente,ligada,nao
+15,dia da semana,acompanhado,sentado,manha,iluminada,quente,desligada,nao
+15,dia da semana,sozinho,nao esta sentado,noite,iluminada,fria,desligada,nao
+15,dia da semana,acompanhado,sentado,noite,escura,quente,ligada,sim
+15,dia da semana,acompanhado,sentado,tarde,escura,com temperatura moderada,ligada,nao
+15,dia da semana,acompanhado,nao esta sentado,manha,iluminada,quente,desligada,nao
+15,dia da semana,sozinho,nao esta sentado,madrugada,escura,quente,desligada,nao
+15,dia da semana,sozinho,sentado,noite,iluminada,com temperatura moderada,desligada,nao
+15,final de semana,sozinho,sentado,tarde,escura,quente,ligada,nao
+15,dia da semana,acompanhado,sentado,noite,escura,com temperatura moderada,ligada,sim
+15,dia da semana,acompanhado,sentado,tarde,iluminada,com temperatura moderada,ligada,sim
+15,final de semana,acompanhado,nao esta sentado,manha,iluminada,fria,desligada,nao
+15,final de semana,sozinho,nao esta sentado,noite,iluminada,fria,desligada,nao
+15,dia da semana,sozinho,sentado,manha,iluminada,fria,ligada,nao
+15,final de semana,acompanhado,sentado,madrugada,escura,com temperatura moderada,desligada,nao
+15,final de semana,sozinho,sentado,tarde,iluminada,fria,desligada,nao
+15,dia da semana,acompanhado,nao esta sentado,manha,escura,fria,ligada,nao
+15,dia da semana,sozinho,nao esta sentado,tarde,escura,fria,ligada,nao
+15,dia da semana,acompanhado,sentado,madrugada,iluminada,fria,desligada,sim
+15,dia da semana,sozinho,sentado,tarde,iluminada,quente,ligada,sim
+15,dia da semana,sozinho,sentado,noite,iluminada,com temperatura moderada,desligada,nao
+15,dia da semana,acompanhado,nao esta sentado,noite,iluminada,quente,desligada,nao
+15,final de semana,acompanhado,nao esta sentado,manha,iluminada,quente,ligada,nao
+15,final de semana,sozinho,nao esta sentado,manha,iluminada,com temperatura moderada,ligada,nao
+15,final de semana,acompanhado,sentado,tarde,escura,com temperatura moderada,desligada,sim
+16,dia da semana,acompanhado,nao esta sentado,madrugada,escura,quente,ligada,nao
+16,final de semana,acompanhado,sentado,noite,escura,fria,ligada,nao
+16,final de semana,sozinho,nao esta sentado,manha,escura,com temperatura moderada,desligada,nao
+16,dia da semana,sozinho,sentado,madrugada,escura,fria,desligada,nao
+16,dia da semana,sozinho,sentado,noite,iluminada,quente,ligada,sim
+16,final de semana,sozinho,sentado,noite,escura,fria,ligada,nao
+16,dia da semana,acompanhado,nao esta sentado,noite,escura,com temperatura moderada,desligada,nao
+16,dia da semana,acompanhado,nao esta sentado,tarde,iluminada,com temperatura moderada,desligada,nao
+16,dia da semana,acompanhado,sentado,noite,escura,com temperatura moderada,ligada,sim
+16,dia da semana,acompanhado,nao esta sentado,noite,escura,quente,ligada,nao
+16,final de semana,acompanhado,nao esta sentado,madrugada,escura,quente,desligada,nao
+16,final de semana,sozinho,sentado,manha,escura,com temperatura moderada,ligada,sim
+16,dia da semana,acompanhado,sentado,madrugada,iluminada,quente,desligada,nao
+16,dia da semana,acompanhado,sentado,madrugada,iluminada,fria,desligada,nao
+16,dia da semana,acompanhado,nao esta sentado,noite,escura,com temperatura moderada,desligada,nao
+16,dia da semana,sozinho,nao esta sentado,manha,iluminada,com temperatura moderada,desligada,nao
+16,dia da semana,acompanhado,nao esta sentado,tarde,iluminada,fria,ligada,sim
+16,dia da semana,acompanhado,nao esta sentado,manha,escura,fria,ligada,sim
+16,dia da semana,sozinho,nao esta sentado,noite,escura,com temperatura moderada,desligada,nao
+16,dia da semana,acompanhado,nao esta sentado,tarde,escura,fria,ligada,sim
+16,dia da semana,acompanhado,sentado,madrugada,iluminada,com temperatura moderada,ligada,nao
+16,final de semana,acompanhado,sentado,noite,iluminada,com temperatura moderada,desligada,nao
+16,final de semana,acompanhado,sentado,tarde,iluminada,quente,ligada,nao
+16,dia da semana,acompanhado,sentado,manha,iluminada,quente,ligada,nao
+16,final de semana,sozinho,sentado,manha,escura,quente,ligada,sim
+17,dia da semana,sozinho,sentado,madrugada,escura,com temperatura moderada,desligada,Nao
+17,final de semana,sozinho,sentado,noite,escura,fria,desligada,sim
+17,dia da semana,acompanhado,sentado,manha,iluminada,com temperatura moderada,desligada,nao
+17,dia da semana,sozinho,sentado,madrugada,iluminada,fria,desligada,nao
+17,final de semana,acompanhado,sentado,noite,escura,fria,ligada,sim
+17,dia da semana,acompanhado,sentado,tarde,iluminada,quente,ligada,nao
+17,dia da semana,sozinho,nao esta sentado,manha,iluminada,quente,ligada,nao
+17,dia da semana,acompanhado,nao esta sentado,manha,iluminada,quente,desligada,nao
+17,dia da semana,acompanhado,nao esta sentado,manha,escura,fria,desligada,nao
+17,final de semana,sozinho,nao esta sentado,madrugada,iluminada,com temperatura moderada,ligada,nao
+17,dia da semana,sozinho,nao esta sentado,noite,escura,fria,ligada,nao
+17,dia da semana,sozinho,nao esta sentado,noite,escura,quente,ligada,nao
+17,final de semana,acompanhado,nao esta sentado,madrugada,escura,com temperatura moderada,ligada,nao
+17,dia da semana,acompanhado,nao esta sentado,noite,escura,fria,ligada,nao
+17,dia da semana,acompanhado,sentado,madrugada,iluminada,com temperatura moderada,ligada,nao
+17,final de semana,sozinho,nao esta sentado,madrugada,escura,quente,desligada,nao
+17,final de semana,sozinho,sentado,madrugada,escura,quente,desligada,nao
+17,final de semana,sozinho,sentado,madrugada,escura,quente,desligada,nao
+17,dia da semana,sozinho,nao esta sentado,tarde,iluminada,fria,ligada,nao
+17,final de semana,acompanhado,nao esta sentado,tarde,iluminada,quente,desligada,nao
+17,final de semana,sozinho,sentado,manha,iluminada,fria,ligada,sim
+17,final de semana,sozinho,sentado,tarde,escura,com temperatura moderada,desligada,sim
+17,final de semana,sozinho,sentado,noite,escura,quente,ligada,nao
+17,dia da semana,acompanhado,nao esta sentado,madrugada,escura,fria,ligada,nao
+17,final de semana,sozinho,sentado,madrugada,iluminada,fria,desligada,sim
+18,final de semana,sozinho,sentado,noite,iluminada,com temperatura moderada,ligada,sim
+18,dia da semana,sozinho,nao esta sentado,tarde,escura,fria,desligada,sim
+18,final de semana,sozinho,nao esta sentado,noite,iluminada,quente,desligada,nao
+18,final de semana,sozinho,nao esta sentado,madrugada,iluminada,quente,desligada,nao
+18,dia da semana,sozinho,sentado,noite,escura,fria,desligada,sim
+18,dia da semana,acompanhado,nao esta sentado,madrugada,escura,com temperatura moderada,ligada,sim
+18,final de semana,sozinho,nao esta sentado,noite,iluminada,quente,ligada,nao
+18,final de semana,acompanhado,nao esta sentado,noite,escura,com temperatura moderada,ligada,sim
+18,final de semana,sozinho,nao esta sentado,tarde,escura,quente,ligada,nao
+18,dia da semana,sozinho,sentado,tarde,iluminada,com temperatura moderada,desligada,sim
+18,final de semana,sozinho,nao esta sentado,manha,iluminada,com temperatura moderada,desligada,sim
+18,dia da semana,sozinho,sentado,noite,escura,fria,ligada,sim
+18,dia da semana,acompanhado,nao esta sentado,tarde,escura,com temperatura moderada,desligada,sim
+18,dia da semana,sozinho,nao esta sentado,tarde,escura,quente,ligada,nao
+18,dia da semana,sozinho,sentado,noite,iluminada,fria,desligada,sim
+18,final de semana,acompanhado,nao esta sentado,madrugada,escura,com temperatura moderada,desligada,sim
+18,final de semana,sozinho,sentado,noite,iluminada,quente,desligada,nao
+18,dia da semana,sozinho,nao esta sentado,noite,escura,com temperatura moderada,ligada,nao
+18,final de semana,acompanhado,nao esta sentado,noite,iluminada,quente,desligada,nao
+18,dia da semana,sozinho,sentado,tarde,escura,com temperatura moderada,desligada,sim
+18,dia da semana,sozinho,nao esta sentado,manha,escura,quente,desligada,nao
+18,dia da semana,acompanhado,nao esta sentado,manha,iluminada,quente,ligada,nao
+18,final de semana,sozinho,sentado,manha,iluminada,fria,desligada,sim
+18,dia da semana,sozinho,sentado,tarde,escura,quente,ligada,nao
+18,final de semana,acompanhado,nao esta sentado,madrugada,escura,com temperatura moderada,ligada,sim
+19,dia da semana,sozinho,nao esta sentado,manha,escura,fria,desligada,nao
+19,final de semana,sozinho,nao esta sentado,madrugada,escura,fria,ligada,nao
+19,dia da semana,acompanhado,nao esta sentado,tarde,escura,quente,desligada,nao
+19,dia da semana,sozinho,nao esta sentado,noite,escura,fria,ligada,sim
+19,final de semana,acompanhado,sentado,noite,escura,com temperatura moderada,desligada,sim
+19,dia da semana,acompanhado,nao esta sentado,tarde,escura,fria,ligada,sim
+19,dia da semana,acompanhado,nao esta sentado,tarde,iluminada,com temperatura moderada,desligada,nao
+19,final de semana,sozinho,sentado,madrugada,iluminada,com temperatura moderada,ligada,nao
+19,final de semana,sozinho,sentado,manha,iluminada,com temperatura moderada,desligada,sim
+19,dia da semana,acompanhado,sentado,tarde,escura,quente,desligada,sim
+19,final de semana,sozinho,nao esta sentado,madrugada,escura,com temperatura moderada,ligada,nao
+19,final de semana,sozinho,nao esta sentado,tarde,escura,fria,desligada,nao
+19,dia da semana,acompanhado,sentado,madrugada,iluminada,quente,ligada,sim
+19,final de semana,acompanhado,sentado,noite,escura,com temperatura moderada,desligada,sim
+19,dia da semana,sozinho,sentado,manha,escura,quente,desligada,nao
+19,final de semana,sozinho,nao esta sentado,tarde,escura,com temperatura moderada,desligada,nao
+19,dia da semana,sozinho,nao esta sentado,madrugada,escura,quente,ligada,nao
+19,dia da semana,sozinho,sentado,tarde,iluminada,quente,ligada,sim
+19,final de semana,acompanhado,nao esta sentado,tarde,iluminada,com temperatura moderada,desligada,nao
+19,dia da semana,acompanhado,sentado,tarde,iluminada,com temperatura moderada,ligada,sim
+19,final de semana,acompanhado,nao esta sentado,tarde,iluminada,com temperatura moderada,desligada,nao
+19,dia da semana,sozinho,sentado,noite,iluminada,quente,desligada,sim
+19,final de semana,sozinho,nao esta sentado,tarde,iluminada,com temperatura moderada,desligada,nao
+19,dia da semana,sozinho,sentado,noite,escura,quente,ligada,sim
+19,final de semana,sozinho,nao esta sentado,madrugada,escura,fria,desligada,nao
+20,dia da semana,sozinho,sentado,noite,escura,quente,ligada,sim
+20,final de semana,acompanhado,sentado,tarde,escura,com temperatura moderada,desligada,nao
+20,dia da semana,sozinho,sentado,manha,iluminada,fria,desligada,sim
+20,final de semana,acompanhado,sentado,madrugada,iluminada,com temperatura moderada,ligada,sim
+20,dia da semana,acompanhado,nao esta sentado,madrugada,escura,quente,desligada,nao
+20,dia da semana,sozinho,nao esta sentado,madrugada,iluminada,com temperatura moderada,desligada,nao
+20,dia da semana,acompanhado,nao esta sentado,manha,escura,quente,desligada,nao
+20,final de semana,acompanhado,sentado,madrugada,iluminada,fria,desligada,nao
+20,dia da semana,sozinho,nao esta sentado,madrugada,escura,quente,desligada,nao
+20,final de semana,sozinho,sentado,manha,escura,fria,desligada,sim
+20,final de semana,sozinho,sentado,manha,iluminada,fria,ligada,sim
+20,dia da semana,sozinho,nao esta sentado,manha,escura,fria,desligada,nao
+20,dia da semana,sozinho,nao esta sentado,madrugada,iluminada,fria,ligada,nao
+20,final de semana,sozinho,sentado,tarde,escura,com temperatura moderada,ligada,sim
+20,dia da semana,acompanhado,nao esta sentado,noite,escura,com temperatura moderada,ligada,nao
+20,final de semana,acompanhado,nao esta sentado,madrugada,escura,com temperatura moderada,desligada,nao
+20,final de semana,acompanhado,nao esta sentado,madrugada,escura,quente,ligada,nao
+20,dia da semana,sozinho,sentado,noite,escura,com temperatura moderada,ligada,sim
+20,dia da semana,sozinho,sentado,madrugada,escura,quente,desligada,nao
+20,dia da semana,sozinho,sentado,tarde,iluminada,quente,ligada,sim
+20,dia da semana,sozinho,sentado,manha,iluminada,fria,ligada,sim
+20,final de semana,sozinho,nao esta sentado,noite,escura,com temperatura moderada,desligada,nao
+20,dia da semana,acompanhado,sentado,noite,iluminada,quente,ligada,sim
+20,dia da semana,acompanhado,nao esta sentado,manha,escura,quente,ligada,sim
+20,final de semana,acompanhado,nao esta sentado,tarde,iluminada,quente,desligada,nao

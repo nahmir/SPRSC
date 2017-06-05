@@ -1,0 +1,230 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -U -M 2
+Relation:     perfil_user3
+Instances:    228
+Attributes:   11
+              year
+              genre1
+              genre2
+              run_time
+              director_win_oscar
+              country
+              budget
+              lead_actor_win_oscar
+              IMDB_rating
+              movie_win_oscar
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+IMDB_rating <= 6.4
+|   country = USA
+|   |   genre1 = Animation: No (0.0)
+|   |   genre1 = Family: No (1.0)
+|   |   genre1 = Comedy
+|   |   |   run_time <= 92: No (6.0)
+|   |   |   run_time > 92: Yes (5.0/1.0)
+|   |   genre1 = Action: No (4.0)
+|   |   genre1 = Drama: No (2.0)
+|   |   genre1 = Romance: No (0.0)
+|   |   genre1 = Sci-Fi: No (5.0/1.0)
+|   |   genre1 = Thriller: No (0.0)
+|   |   genre1 = Horror
+|   |   |   genre2 = Family: No (0.0)
+|   |   |   genre2 = Adventure: No (0.0)
+|   |   |   genre2 = Romance: No (0.0)
+|   |   |   genre2 = Crime: No (0.0)
+|   |   |   genre2 = Thriller: No (10.5/1.5)
+|   |   |   genre2 = Action: No (1.75/0.08)
+|   |   |   genre2 = Sci-Fi: No (3.5/0.17)
+|   |   |   genre2 = Comedy
+|   |   |   |   year <= 1991: No (2.5/0.25)
+|   |   |   |   year > 1991: Yes (2.75/0.75)
+|   |   |   genre2 = War: No (0.0)
+|   |   |   genre2 = Musical: No (0.0)
+|   |   |   genre2 = Mystery: No (0.0)
+|   |   |   genre2 = Drama: No (0.0)
+|   |   |   genre2 = Western: No (0.0)
+|   |   |   genre2 = Fantasy: No (0.0)
+|   |   |   genre2 = Horror: No (0.0)
+|   |   |   genre2 = Short: No (0.0)
+|   |   |   genre2 = Film-Noir: No (0.0)
+|   |   |   genre2 = Documentary: No (0.0)
+|   |   genre1 = Documentary: No (0.0)
+|   |   genre1 = Western: No (0.0)
+|   |   genre1 = Musical: No (0.0)
+|   |   genre1 = Film-Noir: No (0.0)
+|   |   genre1 = Crime: No (0.0)
+|   |   genre1 = Adventure: No (0.0)
+|   |   genre1 = War: No (0.0)
+|   |   genre1 = Mystery: No (0.0)
+|   country = UK
+|   |   run_time <= 118: No (2.0)
+|   |   run_time > 118: Yes (2.0)
+|   country = Germany: No (0.0)
+|   country = Austria: No (0.0)
+|   country = Australia: No (0.0)
+|   country = Japan: No (0.0)
+|   country = France: No (0.0)
+|   country = Canada: No (3.0)
+|   country = Italy: No (0.0)
+IMDB_rating > 6.4
+|   country = USA
+|   |   genre2 = Family
+|   |   |   genre1 = Animation
+|   |   |   |   movie_win_oscar = Yes
+|   |   |   |   |   IMDB_rating <= 7.5: Yes (3.0)
+|   |   |   |   |   IMDB_rating > 7.5: No (4.0/1.0)
+|   |   |   |   movie_win_oscar = No
+|   |   |   |   |   budget <= 3000000: No (3.43)
+|   |   |   |   |   budget > 3000000
+|   |   |   |   |   |   budget <= 5000000: Yes (4.57/0.57)
+|   |   |   |   |   |   budget > 5000000
+|   |   |   |   |   |   |   run_time <= 80: No (3.5)
+|   |   |   |   |   |   |   run_time > 80
+|   |   |   |   |   |   |   |   run_time <= 84: Yes (2.0)
+|   |   |   |   |   |   |   |   run_time > 84: No (2.5/1.0)
+|   |   |   genre1 = Family: Yes (0.0)
+|   |   |   genre1 = Comedy: Yes (2.46/0.62)
+|   |   |   genre1 = Action: Yes (0.21)
+|   |   |   genre1 = Drama: Yes (1.64/0.62)
+|   |   |   genre1 = Romance: Yes (0.0)
+|   |   |   genre1 = Sci-Fi: Yes (0.0)
+|   |   |   genre1 = Thriller: Yes (0.62)
+|   |   |   genre1 = Horror: No (2.05/0.62)
+|   |   |   genre1 = Documentary: Yes (0.0)
+|   |   |   genre1 = Western: Yes (0.0)
+|   |   |   genre1 = Musical: Yes (0.0)
+|   |   |   genre1 = Film-Noir: Yes (0.0)
+|   |   |   genre1 = Crime: Yes (0.0)
+|   |   |   genre1 = Adventure: Yes (0.0)
+|   |   |   genre1 = War: Yes (0.0)
+|   |   |   genre1 = Mystery: Yes (0.0)
+|   |   genre2 = Adventure
+|   |   |   IMDB_rating <= 7.3: No (5.57/0.79)
+|   |   |   IMDB_rating > 7.3: Yes (8.77/0.49)
+|   |   genre2 = Romance
+|   |   |   year <= 1986: No (2.0/0.31)
+|   |   |   year > 1986: Yes (7.13/0.13)
+|   |   genre2 = Crime: Yes (3.91/0.35)
+|   |   genre2 = Thriller
+|   |   |   movie_win_oscar = Yes: No (4.61/1.3)
+|   |   |   movie_win_oscar = No
+|   |   |   |   genre1 = Animation: Yes (0.0)
+|   |   |   |   genre1 = Family: Yes (0.0)
+|   |   |   |   genre1 = Comedy: Yes (1.82/0.46)
+|   |   |   |   genre1 = Action
+|   |   |   |   |   year <= 1996: Yes (3.0)
+|   |   |   |   |   year > 1996: No (3.15/0.15)
+|   |   |   |   genre1 = Drama: Yes (3.76/1.3)
+|   |   |   |   genre1 = Romance: Yes (0.0)
+|   |   |   |   genre1 = Sci-Fi: Yes (1.0)
+|   |   |   |   genre1 = Thriller: Yes (0.46)
+|   |   |   |   genre1 = Horror: Yes (4.37/0.91)
+|   |   |   |   genre1 = Documentary: Yes (0.0)
+|   |   |   |   genre1 = Western: Yes (0.0)
+|   |   |   |   genre1 = Musical: Yes (0.0)
+|   |   |   |   genre1 = Film-Noir: Yes (0.0)
+|   |   |   |   genre1 = Crime: Yes (0.0)
+|   |   |   |   genre1 = Adventure: Yes (0.0)
+|   |   |   |   genre1 = War: Yes (0.0)
+|   |   |   |   genre1 = Mystery: Yes (0.0)
+|   |   genre2 = Action
+|   |   |   genre1 = Animation: Yes (0.0)
+|   |   |   genre1 = Family: Yes (0.0)
+|   |   |   genre1 = Comedy: Yes (5.11/1.78)
+|   |   |   genre1 = Action: Yes (0.26)
+|   |   |   genre1 = Drama: Yes (5.07/0.78)
+|   |   |   genre1 = Romance: Yes (0.0)
+|   |   |   genre1 = Sci-Fi
+|   |   |   |   year <= 1980: No (5.0)
+|   |   |   |   year > 1980
+|   |   |   |   |   director_win_oscar = Yes
+|   |   |   |   |   |   run_time <= 139: Yes (3.0/1.0)
+|   |   |   |   |   |   run_time > 139: No (2.0)
+|   |   |   |   |   director_win_oscar = No
+|   |   |   |   |   |   movie_win_oscar = Yes: Yes (2.0)
+|   |   |   |   |   |   movie_win_oscar = No
+|   |   |   |   |   |   |   IMDB_rating <= 7.3
+|   |   |   |   |   |   |   |   year <= 1988: No (2.0)
+|   |   |   |   |   |   |   |   year > 1988: Yes (4.0/1.0)
+|   |   |   |   |   |   |   IMDB_rating > 7.3: Yes (5.0)
+|   |   |   genre1 = Thriller: Yes (0.78)
+|   |   |   genre1 = Horror: No (3.59/1.78)
+|   |   |   genre1 = Documentary: Yes (0.0)
+|   |   |   genre1 = Western: Yes (0.0)
+|   |   |   genre1 = Musical: Yes (0.0)
+|   |   |   genre1 = Film-Noir: Yes (0.0)
+|   |   |   genre1 = Crime: Yes (0.0)
+|   |   |   genre1 = Adventure: Yes (0.0)
+|   |   |   genre1 = War: Yes (0.0)
+|   |   |   genre1 = Mystery: Yes (0.0)
+|   |   genre2 = Sci-Fi
+|   |   |   movie_win_oscar = Yes: No (3.18/1.09)
+|   |   |   movie_win_oscar = No: Yes (3.34/0.49)
+|   |   genre2 = Comedy: Yes (13.04/1.16)
+|   |   genre2 = War
+|   |   |   year <= 1993: No (2.64/0.25)
+|   |   |   year > 1993: Yes (2.57/0.07)
+|   |   genre2 = Musical: Yes (1.3/0.12)
+|   |   genre2 = Mystery: Yes (0.0)
+|   |   genre2 = Drama: Yes (1.3/0.12)
+|   |   genre2 = Western: Yes (0.0)
+|   |   genre2 = Fantasy: Yes (0.0)
+|   |   genre2 = Horror: Yes (0.0)
+|   |   genre2 = Short: Yes (0.0)
+|   |   genre2 = Film-Noir: Yes (0.0)
+|   |   genre2 = Documentary: No (1.3/0.19)
+|   country = UK
+|   |   movie_win_oscar = Yes
+|   |   |   budget <= 10000000: Yes (4.67)
+|   |   |   budget > 10000000: No (2.33/0.33)
+|   |   movie_win_oscar = No: Yes (17.0/1.0)
+|   country = Germany: Yes (1.0)
+|   country = Austria: Yes (0.0)
+|   country = Australia: Yes (2.0/1.0)
+|   country = Japan: No (1.0)
+|   country = France: Yes (2.0/1.0)
+|   country = Canada: Yes (0.0)
+|   country = Italy: Yes (1.0)
+
+Number of Leaves  : 	139
+
+Size of the tree : 	171
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          14               46.6667 %
+Incorrectly Classified Instances        16               53.3333 %
+Kappa statistic                         -0.0667
+Mean absolute error                      0.4479
+Root mean squared error                  0.574 
+Relative absolute error                 89.5856 %
+Root relative squared error            113.9567 %
+Total Number of Instances               30     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,667    0,733    0,476      0,667    0,556      -0,073   0,587     0,626     Yes
+                 0,267    0,333    0,444      0,267    0,333      -0,073   0,587     0,594     No
+Weighted Avg.    0,467    0,533    0,460      0,467    0,444      -0,073   0,587     0,610     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 10  5 |  a = Yes
+ 11  4 |  b = No
+

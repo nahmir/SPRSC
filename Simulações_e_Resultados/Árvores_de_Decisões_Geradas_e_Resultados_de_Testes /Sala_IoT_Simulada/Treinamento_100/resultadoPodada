@@ -1,0 +1,77 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     100_instancias-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    100
+Attributes:   8
+              sensorSemana
+              sensorCompanhia
+              sensorSofa
+              sensorHorario
+              sensorLuminosidade
+              sensorTemperatura
+              sensorTelevisao
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+J48 pruned tree
+------------------
+
+sensorTelevisao = ligada
+|   sensorTemperatura = fria: Nao (15.0/5.0)
+|   sensorTemperatura = moderada: Sim (20.0/4.0)
+|   sensorTemperatura = quente: Nao (16.0/5.0)
+sensorTelevisao = desligada: Nao (49.0/13.0)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	6
+
+Attribute mappings:
+
+Model attributes              	    Incoming attributes
+------------------------------	    ----------------
+(nominal) sensorSemana        	--> 2 (nominal) sensorSemana
+(nominal) sensorCompanhia     	--> 3 (nominal) sensorCompanhia
+(nominal) sensorSofa          	--> 4 (nominal) sensorSofa
+(nominal) sensorHorario       	--> 5 (nominal) sensorHorario
+(nominal) sensorLuminosidade  	--> 6 (nominal) sensorLuminosidade
+(nominal) sensorTemperatura   	--> 7 (nominal) sensorTemperatura
+(nominal) sensorTelevisao     	--> 8 (nominal) sensorTelevisao
+(nominal) classe              	--> 9 (nominal) classe
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          45               60      %
+Incorrectly Classified Instances        30               40      %
+Kappa statistic                          0.049 
+Mean absolute error                      0.46  
+Root mean squared error                  0.5137
+Relative absolute error                 97.3261 %
+Root relative squared error            106.1181 %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,214    0,170    0,429      0,214    0,286      0,055    0,525     0,397     Sim
+                 0,830    0,786    0,639      0,830    0,722      0,055    0,525     0,635     Nao
+Weighted Avg.    0,600    0,556    0,561      0,600    0,559      0,055    0,525     0,546     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+  6 22 |  a = Sim
+  8 39 |  b = Nao
+
